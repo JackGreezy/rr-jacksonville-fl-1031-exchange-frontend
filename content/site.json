@@ -1,7 +1,9 @@
 {
-  "company": "1031 Exchange Jacksonville",
-  "phone": "",
-  "phoneDigits": "",
+  "company": "1031 Exchange of Jacksonville",
+  "phone": "(904) 664-9656",
+  "phoneDigits": "+19046649656",
+  "email": "exchange@1031exchangeofjacksonville.com",
+  "address": "200 W Forsyth St, Jacksonville, FL 32202",
   "mainCity": "Jacksonville",
   "state": "FL",
   "services": [],
