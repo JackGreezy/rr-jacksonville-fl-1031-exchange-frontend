@@ -184,6 +184,37 @@ function ContactFormInner({
           )}
         </label>
         <label className="flex flex-col text-sm font-semibold text-[#003366]">
+          Property Being Sold
+          <input
+            aria-label="Property being sold"
+            name="property"
+            type="text"
+            placeholder="Include property type, location, and estimated value (optional)"
+            className="mt-1 rounded-2xl border border-[#E5E7EB] bg-white px-4 py-3 text-base text-[#1F2937] focus:border-[#003366] focus:outline-none"
+          />
+        </label>
+        <div className="grid gap-4 md:grid-cols-2">
+          <label className="flex flex-col text-sm font-semibold text-[#003366]">
+            Estimated Close Date
+            <input
+              aria-label="Estimated close date"
+              name="estimatedCloseDate"
+              type="date"
+              className="mt-1 rounded-2xl border border-[#E5E7EB] bg-white px-4 py-3 text-base text-[#1F2937] focus:border-[#003366] focus:outline-none"
+            />
+          </label>
+          <label className="flex flex-col text-sm font-semibold text-[#003366]">
+            City
+            <input
+              aria-label="City"
+              name="city"
+              type="text"
+              placeholder="Primary metro or submarket (optional)"
+              className="mt-1 rounded-2xl border border-[#E5E7EB] bg-white px-4 py-3 text-base text-[#1F2937] focus:border-[#003366] focus:outline-none"
+            />
+          </label>
+        </div>
+        <label className="flex flex-col text-sm font-semibold text-[#003366]">
           Timeline
           <select
             aria-label="Timeline"
