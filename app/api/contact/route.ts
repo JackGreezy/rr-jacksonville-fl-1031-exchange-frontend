@@ -1,16 +1,11 @@
 import { NextRequest, NextResponse } from "next/server";
-import sgMail from "@sendgrid/mail";
+import { getBrand } from '@/lib/brand';
+import { sendCustomerConfirmation, sendInternalNotifications } from '@/lib/email/sendgrid';
 
-// Initialize SendGrid
-if (process.env.SENDGRID_API_KEY) {
-  sgMail.setApiKey(process.env.SENDGRID_API_KEY);
-}
-
-// Cloudflare Turnstile verification
 async function verifyTurnstileToken(token: string): Promise<boolean> {
   if (!process.env.TURNSTILE_SECRET_KEY) {
     console.warn("TURNSTILE_SECRET_KEY not set, skipping verification");
-    return true; // Allow in development
+    return true;
   }
 
   try {
@@ -36,7 +31,6 @@ async function verifyTurnstileToken(token: string): Promise<boolean> {
   }
 }
 
-// Send to Zapier webhook
 async function sendToZapier(formData: Record<string, string>) {
   if (!process.env.ZAPIER_WEBHOOK_URL) {
     console.warn("ZAPIER_WEBHOOK_URL not set, skipping Zapier");
@@ -53,22 +47,28 @@ async function sendToZapier(formData: Record<string, string>) {
     });
   } catch (error) {
     console.error("Zapier webhook error:", error);
-    // Don't fail the request if Zapier fails
   }
 }
 
 export async function POST(request: NextRequest) {
   try {
-    const formData = await request.formData();
+    const contentType = request.headers.get('content-type') || '';
+    const body = contentType.includes('application/json')
+      ? await request.json()
+      : Object.fromEntries((await request.formData()).entries());
 
-    const name = formData.get("name") as string;
-    const email = formData.get("email") as string;
-    const phone = formData.get("phone") as string;
-    const company = formData.get("company") as string;
-    const projectType = formData.get("projectType") as string;
-    const timeline = formData.get("timeline") as string;
-    const details = formData.get("details") as string;
-    const turnstileToken = formData.get("cf-turnstile-response") as string;
+    const name = body.name as string;
+    const email = body.email as string;
+    const phone = body.phone as string;
+    const company = body.company as string;
+    const projectType = body.projectType as string;
+    const timeline = body.timeline as string;
+    const details = body.details as string;
+    const property = body.property as string;
+    const estimatedCloseDate = body.estimatedCloseDate as string;
+    const city = body.city as string;
+    const message = body.message as string;
+    const turnstileToken = body['cf-turnstile-response'] || body.turnstileToken as string;
 
     // Validate required fields
     if (!name || !email || !phone || !projectType) {
@@ -89,44 +89,6 @@ export async function POST(request: NextRequest) {
       }
     }
 
-    // Prepare email content
-    const emailContent = {
-      to: process.env.CONTACT_EMAIL || "exchange@1031exchangeofjacksonville.com",
-      from: process.env.SENDGRID_FROM_EMAIL || "noreply@1031exchangeofjacksonville.com",
-      subject: `New Contact Form Submission: ${projectType}`,
-      html: `
-        <h2>New Contact Form Submission</h2>
-        <p><strong>Name:</strong> ${name}</p>
-        <p><strong>Email:</strong> ${email}</p>
-        <p><strong>Phone:</strong> ${phone}</p>
-        ${company ? `<p><strong>Company:</strong> ${company}</p>` : ""}
-        <p><strong>Project Type:</strong> ${projectType}</p>
-        ${timeline ? `<p><strong>Timeline:</strong> ${timeline}</p>` : ""}
-        ${details ? `<p><strong>Details:</strong></p><p>${details.replace(/\n/g, "<br>")}</p>` : ""}
-      `,
-      text: `
-        New Contact Form Submission
-        
-        Name: ${name}
-        Email: ${email}
-        Phone: ${phone}
-        ${company ? `Company: ${company}` : ""}
-        Project Type: ${projectType}
-        ${timeline ? `Timeline: ${timeline}` : ""}
-        ${details ? `Details: ${details}` : ""}
-      `,
-    };
-
-    // Send email via SendGrid
-    if (process.env.SENDGRID_API_KEY) {
-      try {
-        await sgMail.send(emailContent);
-      } catch (error) {
-        console.error("SendGrid error:", error);
-        // Continue even if SendGrid fails
-      }
-    }
-
     // Send to Zapier webhook
     await sendToZapier({
       name,
@@ -134,11 +96,49 @@ export async function POST(request: NextRequest) {
       phone,
       company: company || "",
       projectType,
-      timeline,
-      details,
+      timeline: timeline || "",
+      details: details || message || "",
+      property: property || "",
+      estimatedCloseDate: estimatedCloseDate || "",
+      city: city || "",
       source: "contact-form",
       timestamp: new Date().toISOString(),
     });
+
+    // Send emails via SendGrid template
+    const brand = getBrand();
+    const lead = {
+      name: String(name || ''),
+      email: String(email || ''),
+      phone: phone ? String(phone).replace(/\D/g, '') : undefined,
+      phone_plain: phone ? String(phone).replace(/\D/g, '') : undefined,
+      projectType: String(projectType || '1031 Exchange Project'),
+      property: property ? String(property) : undefined,
+      estimatedCloseDate: estimatedCloseDate ? String(estimatedCloseDate) : undefined,
+      city: city ? String(city) : undefined,
+      company: company ? String(company) : undefined,
+      timeline: timeline ? String(timeline) : undefined,
+      message: message ? String(message) : (details ? String(details) : undefined),
+    };
+
+    const brandWithDate = {
+      ...brand,
+      submitted_date: new Date().toLocaleDateString('en-US', {
+        year: 'numeric',
+        month: 'long',
+        day: 'numeric'
+      })
+    };
+
+    try {
+      await Promise.all([
+        sendCustomerConfirmation(brandWithDate, lead),
+        sendInternalNotifications(brandWithDate, lead),
+      ]);
+      console.log('SendGrid emails sent successfully to:', email);
+    } catch (error) {
+      console.error("SendGrid email failed", error);
+    }
 
     return NextResponse.json({ success: true });
   } catch (error) {
@@ -149,4 +149,3 @@ export async function POST(request: NextRequest) {
     );
   }
 }
-
