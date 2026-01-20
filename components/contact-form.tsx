@@ -29,6 +29,8 @@ function ContactFormInner({
   const [selectedProjectType, setSelectedProjectType] = useState("");
   const [showSuggestions, setShowSuggestions] = useState(false);
   const [turnstileToken, setTurnstileToken] = useState<string>("");
+  const [showSuccessModal, setShowSuccessModal] = useState(false);
+  const [isSubmitting, setIsSubmitting] = useState(false);
 
   const prefilledProjectType = propPrefilledProjectType || searchParams?.get("projectType") || "";
 
@@ -81,14 +83,73 @@ function ContactFormInner({
     setShowSuggestions(false);
   };
 
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    setIsSubmitting(true);
+
+    try {
+      const formData = new FormData(e.currentTarget);
+
+      const response = await fetch('/api/contact', {
+        method: 'POST',
+        body: formData,
+      });
+
+      if (response.ok) {
+        setShowSuccessModal(true);
+        // Reset form
+        if (formRef.current) {
+          formRef.current.reset();
+        }
+        setSelectedProjectType("");
+        setProjectTypeQuery("");
+        setTurnstileToken("");
+        // Reset turnstile
+        if ((window as any).turnstile) {
+          (window as any).turnstile.reset();
+        }
+      } else {
+        alert('There was an error submitting your form. Please try again.');
+      }
+    } catch (error) {
+      console.error('Form submission error:', error);
+      alert('There was an error submitting your form. Please try again.');
+    } finally {
+      setIsSubmitting(false);
+    }
+  };
+
   return (
-    <form
-      ref={formRef}
-      action="/api/contact"
-      method="POST"
-      className={`rounded-3xl border border-[#E5E7EB] bg-white p-8 shadow-lg ${className}`}
-      id="contact-form"
-    >
+    <>
+      {/* Success Modal */}
+      {showSuccessModal && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50">
+          <div className="bg-white p-8 rounded-lg shadow-xl max-w-md w-full mx-4">
+            <div className="text-center">
+              <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                <svg className="w-8 h-8 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                </svg>
+              </div>
+              <h3 className="text-xl font-semibold text-gray-900 mb-2">Success!</h3>
+              <p className="text-gray-600 mb-6">Your message has been sent successfully. We'll get back to you soon.</p>
+              <button
+                onClick={() => setShowSuccessModal(false)}
+                className="w-full bg-[#003366] text-white px-6 py-3 rounded-lg hover:bg-[#01264f] transition-colors"
+              >
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+
+      <form
+        ref={formRef}
+        onSubmit={handleSubmit}
+        className={`rounded-3xl border border-[#E5E7EB] bg-white p-8 shadow-lg ${className}`}
+        id="contact-form"
+      >
       {showTitle && (
         <h2
           className="text-2xl font-semibold tracking-tight text-[#003366]"
@@ -247,12 +308,13 @@ function ContactFormInner({
         <button
           type="submit"
           className="w-full rounded-full bg-[#003366] px-6 py-3 text-sm font-semibold uppercase tracking-[0.25em] text-white transition hover:bg-[#01264f] disabled:opacity-50 disabled:cursor-not-allowed"
-          disabled={!turnstileToken}
+          disabled={!turnstileToken || isSubmitting}
         >
-          Submit Request
+          {isSubmitting ? 'Submitting...' : 'Submit Request'}
         </button>
       </div>
     </form>
+    </>
   );
 }
 
