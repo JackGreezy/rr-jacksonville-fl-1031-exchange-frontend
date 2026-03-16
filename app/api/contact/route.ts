@@ -1,132 +1,94 @@
 import { NextRequest, NextResponse } from "next/server";
 import { getBrand } from '@/lib/brand';
 import { sendCustomerConfirmation, sendInternalNotifications } from '@/lib/email/sendgrid';
+import { apiRateLimiter } from '@/lib/rate-limit';
+import { verifyTurnstile } from '@/lib/turnstile';
 
-async function verifyTurnstileToken(token: string): Promise<boolean> {
-  if (!process.env.TURNSTILE_SECRET_KEY) {
-    console.warn("TURNSTILE_SECRET_KEY not set, skipping verification");
+interface ContactFormData {
+  name: string;
+  company?: string;
+  email: string;
+  phone: string;
+  projectType: string;
+  timeline?: string;
+  details: string;
+  turnstileToken?: string;
+  property?: string;
+  estimatedCloseDate?: string;
+  city?: string;
+  message?: string;
+}
+
+async function sendToZapier(data: ContactFormData): Promise<boolean> {
+  const zapierWebhookUrl = process.env.ZAPIER_WEBHOOK_URL || process.env.ZAPIER_WEBHOOK;
+  if (!zapierWebhookUrl) {
+    console.warn("ZAPIER_WEBHOOK not set, skipping Zapier");
     return true;
   }
 
   try {
-    const response = await fetch(
-      "https://challenges.cloudflare.com/turnstile/v0/siteverify",
-      {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({
-          secret: process.env.TURNSTILE_SECRET_KEY,
-          response: token,
-        }),
-      }
-    );
-
-    const data = await response.json();
-    return data.success === true;
-  } catch (error) {
-    console.error("Turnstile verification error:", error);
-    return false;
-  }
-}
-
-async function sendToZapier(formData: Record<string, string>) {
-  if (!process.env.ZAPIER_WEBHOOK_URL) {
-    console.warn("ZAPIER_WEBHOOK_URL not set, skipping Zapier");
-    return;
-  }
-
-  try {
-    await fetch(process.env.ZAPIER_WEBHOOK_URL, {
+    const response = await fetch(zapierWebhookUrl, {
       method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify(formData),
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(data),
     });
+    return response.ok;
   } catch (error) {
-    console.error("Zapier webhook error:", error);
+    console.error("Zapier error:", error);
+    return false;
   }
 }
 
 export async function POST(request: NextRequest) {
   try {
-    const contentType = request.headers.get('content-type') || '';
-    const body = contentType.includes('application/json')
-      ? await request.json()
-      : Object.fromEntries((await request.formData()).entries());
-
-    const name = body.name as string;
-    const email = body.email as string;
-    const phone = body.phone as string;
-    const company = body.company as string;
-    const projectType = body.projectType as string;
-    const timeline = body.timeline as string;
-    const details = body.details as string;
-    const property = body.property as string;
-    const estimatedCloseDate = body.estimatedCloseDate as string;
-    const city = body.city as string;
-    const message = body.message as string;
-    const turnstileToken = body['cf-turnstile-response'] || body.turnstileToken as string;
-
-    // Validate required fields
-    if (!name || !email || !phone || !projectType) {
+    const rateLimitResult = apiRateLimiter.isAllowed(request);
+    if (!rateLimitResult.allowed) {
       return NextResponse.json(
-        { error: "Missing required fields" },
-        { status: 400 }
+        { error: "Too many requests. Please try again later." },
+        {
+          status: 429,
+          headers: {
+            'X-RateLimit-Remaining': rateLimitResult.remaining.toString(),
+            'X-RateLimit-Reset': new Date(rateLimitResult.resetTime).toISOString(),
+          }
+        }
       );
     }
 
-    // Verify Turnstile token
-    if (turnstileToken) {
-      const isValid = await verifyTurnstileToken(turnstileToken);
+    const body: ContactFormData = await request.json();
+
+    if (!body.name || !body.email || !body.phone || !body.projectType) {
+      return NextResponse.json({ error: "Missing required fields" }, { status: 400 });
+    }
+
+    if (body.turnstileToken) {
+      const isValid = await verifyTurnstile(body.turnstileToken);
       if (!isValid) {
-        return NextResponse.json(
-          { error: "Invalid security token" },
-          { status: 400 }
-        );
+        return NextResponse.json({ error: "Invalid verification token" }, { status: 400 });
       }
     }
 
-    // Send to Zapier webhook
-    await sendToZapier({
-      name,
-      email,
-      phone,
-      company: company || "",
-      projectType,
-      timeline: timeline || "",
-      details: details || message || "",
-      property: property || "",
-      estimatedCloseDate: estimatedCloseDate || "",
-      city: city || "",
-      source: "contact-form",
-      timestamp: new Date().toISOString(),
-    });
+    await sendToZapier(body);
 
-    // Send emails via SendGrid template
     const brand = getBrand();
     const lead = {
-      name: String(name || ''),
-      email: String(email || ''),
-      phone: phone ? String(phone).replace(/\D/g, '') : undefined,
-      phone_plain: phone ? String(phone).replace(/\D/g, '') : undefined,
-      projectType: String(projectType || '1031 Exchange Project'),
-      property: property ? String(property) : undefined,
-      estimatedCloseDate: estimatedCloseDate ? String(estimatedCloseDate) : undefined,
-      city: city ? String(city) : undefined,
-      company: company ? String(company) : undefined,
-      timeline: timeline ? String(timeline) : undefined,
-      message: message ? String(message) : (details ? String(details) : undefined),
+      name: String(body.name || ''),
+      email: String(body.email || ''),
+      phone: body.phone ? String(body.phone).replace(/\D/g, '') : undefined,
+      phone_plain: body.phone ? String(body.phone).replace(/\D/g, '') : undefined,
+      projectType: String(body.projectType || '1031 Exchange Project'),
+      property: body.property ? String(body.property) : undefined,
+      estimatedCloseDate: body.estimatedCloseDate ? String(body.estimatedCloseDate) : undefined,
+      city: body.city ? String(body.city) : undefined,
+      company: body.company ? String(body.company) : undefined,
+      timeline: body.timeline ? String(body.timeline) : undefined,
+      message: body.message ? String(body.message) : (body.details ? String(body.details) : undefined),
     };
 
     const brandWithDate = {
       ...brand,
       submitted_date: new Date().toLocaleDateString('en-US', {
-        year: 'numeric',
-        month: 'long',
-        day: 'numeric'
+        year: 'numeric', month: 'long', day: 'numeric'
       })
     };
 
@@ -135,7 +97,6 @@ export async function POST(request: NextRequest) {
         sendCustomerConfirmation(brandWithDate, lead),
         sendInternalNotifications(brandWithDate, lead),
       ]);
-      console.log('SendGrid emails sent successfully to:', email);
     } catch (error) {
       console.error("SendGrid email failed", error);
     }
@@ -143,9 +104,6 @@ export async function POST(request: NextRequest) {
     return NextResponse.json({ success: true });
   } catch (error) {
     console.error("Contact form error:", error);
-    return NextResponse.json(
-      { error: "Internal server error" },
-      { status: 500 }
-    );
+    return NextResponse.json({ error: "Internal server error" }, { status: 500 });
   }
 }
