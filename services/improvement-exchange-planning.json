@@ -1,0 +1,58 @@
+{
+ "slug": "improvement-exchange-planning",
+ "taxonomy": "services",
+ "title": "Improvement Exchange Planning",
+ "name": "Improvement Exchange Planning",
+ "metaTitle": "Improvement Exchange Planning in Jacksonville, FL",
+ "metaDescription": "Structuring a build-to-suit improvement exchange so Jacksonville construction draws count toward the 180-day exchange value.",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>An improvement exchange lets an exchanger use exchange proceeds to fund construction or renovation work on the replacement property, with the added value counted toward the exchange as long as the improvements are complete and titled before day 180. It requires an exchange accommodation titleholder to hold the replacement property during construction, since the exchanger cannot hold title to the replacement property directly while improvement funds are still being spent. It is one of the more document-heavy structures we coordinate, with a construction draw schedule running alongside the standard identification and closing paperwork.</p>"
+  },
+  {
+   "heading": "Why This Structure Comes Up in Jacksonville",
+   "html": "<p>We see improvement exchanges most often when a Jacksonville exchanger identifies land or an underbuilt parcel near JAXPORT or the Westside logistics corridor that needs new construction to reach full value, or when an older building downtown or on the Southbank needs substantial renovation before it can generate comparable rent to what the relinquished property produced. Buying the land or shell alone would not use enough exchange value; the construction work has to be part of the transaction for the numbers to work.</p><p>The same structure applies to a beaches-area retail parcel needing a ground-up build for a specific tenant, where the finished, tenant-ready building is what actually matches the exchange value, not the raw land by itself.</p>"
+  },
+  {
+   "heading": "The 180-Day Construction Schedule",
+   "html": "<ul><li>Accommodation titleholder takes title to the replacement property at the start of construction</li><li>Construction draws funded from exchange proceeds held by the intermediary</li><li>Improvements substantially complete and titled before day 180</li><li>Only value actually in place by day 180 counts toward the exchange</li><li>Title transfers from the accommodation titleholder to the exchanger at completion</li></ul>"
+  },
+  {
+   "heading": "Where Jacksonville Construction Timelines Threaten the Deadline",
+   "html": "<p>180 days is a tight window for meaningful construction work, and permitting timelines through Duval County's consolidated review process, along with weather-related delays common to coastal Florida construction, can eat into a schedule that looked workable on paper. We build the construction timeline with the 180-day deadline as the fixed constraint from the start, rather than treating it as a target to hit if the project stays on schedule.</p><p>Hurricane season timing adds another variable specific to Jacksonville and the surrounding beaches communities, where a named storm can shut down a job site for several days even without direct damage, simply from the precautionary steps a contractor has to take beforehand and the inspection backlog that follows once work resumes.</p>"
+  },
+  {
+   "heading": "What Happens if Construction Is Not Finished in Time",
+   "html": "<p>Only the value actually completed and titled by day 180 counts as replacement property value; unfinished construction does not get credit just because a contract for the remaining work exists. A Jacksonville exchanger relying on an improvement exchange needs a realistic construction schedule that leaves buffer for permitting delays and inspection scheduling, since a project that is 90 percent complete on day 180 only counts for the value actually in place, not the value once finished.</p><p>We recommend sizing the planned improvement scope conservatively against the calendar rather than the other way around, choosing a construction package that can realistically finish with weeks to spare rather than one that only works if every permitting and inspection step goes exactly as scheduled.</p>"
+  },
+  {
+   "heading": "Coordinating the Accommodation Titleholder With Lenders",
+   "html": "<p>Financing an improvement exchange adds a layer most direct purchases do not have, since the lender is underwriting a construction loan to an accommodation titleholder rather than to the exchanger directly. We coordinate the loan structure, draw schedule, and eventual title transfer with the lender early, so the financing terms match how the accommodation arrangement actually works rather than assuming a standard purchase-money loan process.</p><p>Not every Jacksonville construction lender is set up to lend against an accommodation titleholder structure, since it differs from a standard borrower relationship, so we confirm a given lender's familiarity with the arrangement during preflight rather than discovering a lender's discomfort with the structure once terms are already being negotiated.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Who holds title to the replacement property during construction?",
+   "a": "An exchange accommodation titleholder, a separate entity that holds legal title during the improvement period since the exchanger cannot hold the replacement property directly while construction funds are still being spent."
+  },
+  {
+   "q": "Does unfinished construction still count toward the exchange value?",
+   "a": "No, only improvements actually complete and titled by day 180 count; work still in progress at that point does not add exchange value even if a contract for its completion exists."
+  },
+  {
+   "q": "Can an improvement exchange be used on raw land in Jacksonville?",
+   "a": "Yes, this is one of the more common uses, since raw land alone often does not match the exchange value and construction is needed to bring the replacement property up to comparable value, particularly on underbuilt parcels near the port and highway corridors."
+  },
+  {
+   "q": "Does the 45-day identification deadline still apply to an improvement exchange?",
+   "a": "Yes, the replacement property, including a description of the planned improvements, still has to be identified within 45 days like any other exchange, with the same delivery requirements to the qualified intermediary."
+  },
+  {
+   "q": "How does financing work when an accommodation titleholder is involved?",
+   "a": "The lender underwrites the construction loan to the accommodation titleholder rather than the exchanger directly, so loan terms and draw schedules need to be structured around that arrangement from the start, and not every construction lender is familiar with how the structure works."
+  }
+ ],
+ "internalLinks": [],
+ "wordCount": 851
+}

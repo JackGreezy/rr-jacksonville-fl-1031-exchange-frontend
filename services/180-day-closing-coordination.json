@@ -1,0 +1,58 @@
+{
+ "slug": "180-day-closing-coordination",
+ "taxonomy": "services",
+ "title": "180-Day Closing Coordination",
+ "name": "180-Day Closing Coordination",
+ "metaTitle": "180-Day Closing Coordination in Jacksonville, FL",
+ "metaDescription": "Scheduling the 180-day exchange window as a submittal-tracked closing package for Jacksonville replacement property purchases.",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>The 180-day exchange period starts the day the relinquished property closes, not the day the identification list is filed, and the replacement property acquisition has to close inside that window or the exchange fails. For a Jacksonville closing, we run the 180 days as a scheduled sequence rather than a countdown: escrow instructions, lender submittals, and qualified intermediary transfer paperwork each carry their own internal due date, and none of them can slip without pushing everything scheduled after it.</p>"
+  },
+  {
+   "heading": "Building the Closing Package Around Two Deadlines at Once",
+   "html": "<p>The 45-day identification deadline sits inside the 180-day window rather than ahead of it, so the closing schedule has to work backward from day 180 and forward from day 45 at the same time. On a Jacksonville industrial sale near JAXPORT, that means the identification notice has to be locked and delivered before escrow can start assembling transfer documents for whichever replacement candidate survives lender underwriting and property-condition review.</p><p>We treat the period between day 45 and day 180 as the working window where the actual closing package gets built: purchase contract execution, lender submittals, title curative work, and the qualified intermediary's assignment documents all have to land inside that stretch without crowding the final two weeks before the deadline.</p>"
+  },
+  {
+   "heading": "The Submittal Sequence From Escrow to Recording",
+   "html": "<ul><li>Identification notice delivered to the qualified intermediary before day 45</li><li>Executed assignment of the replacement property purchase contract to the intermediary</li><li>Lender payoff and estoppel package for any existing debt on the relinquished side</li><li>Title curative items cleared and closing protection letter issued</li><li>Final settlement statement reconciled between both closing files before funds move</li></ul>"
+  },
+  {
+   "heading": "Where Jacksonville Closings Slip Past Day 180",
+   "html": "<p>The most common slip point on a Jacksonville exchange is title curative work on older parcels downtown or on the Southbank, where prior easements or partial releases take longer to clear than a suburban Northside or Westside site would. Flood zone certification on beaches-area replacement property can also add a week if the surveyor has to re-run elevation data that a lender's underwriter did not accept the first time. We build a buffer into the schedule for exactly these items rather than assuming a clean run from contract to closing.</p><p>A second, less obvious slip point shows up when a replacement candidate involves a tenant tied to Naval Station Mayport or NAS Jacksonville, where a lease estoppel has to route through a base housing or facilities office rather than a standard commercial tenant contact. That extra approval layer does not usually add more than a few days, but if it lands late in the schedule with no buffer built in, it can push a closing right up against the 180-day line without any single party being at fault for the delay.</p>"
+  },
+  {
+   "heading": "Running Two Closing Teams on One Schedule",
+   "html": "<p>A Jacksonville exchange effectively runs two closings under one clock: the relinquished-property sale that already happened and the replacement-property purchase still in progress. We keep the qualified intermediary, the buyer-side closing attorney, and the lender's closing department on a shared milestone log so that a delay on one side gets flagged against the 180-day deadline immediately instead of surfacing during the final week, when there is no longer room to adjust.</p>"
+  },
+  {
+   "heading": "Duval County Recording Timing",
+   "html": "<p>Duval County operates as a consolidated city-county government with a single property appraiser and clerk of court covering the entire footprint, from downtown and the Southbank out to Northside industrial parcels and the Westside logistics corridor. That single-jurisdiction structure simplifies recording coordination compared with exchanges that span multiple counties, but it does not remove the need to confirm the clerk's recording queue and documentary stamp calculation before scheduling the final settlement date.</p><p>We confirm the recording queue directly with the closing attorney a few days ahead of the scheduled settlement rather than assuming same-day recording, since a backlog at the clerk's office can push the recorded deed date past the funding date even when the closing itself happens on time. That distinction matters for a 180-day exchange, where the closing has to be complete, not merely scheduled, before the deadline passes.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Does the 180-day count include weekends and holidays?",
+   "a": "Yes, the 180 days runs on calendar days with no extension for weekends or federal holidays, which is different from some contractual deadlines that skip non-business days."
+  },
+  {
+   "q": "What happens if day 180 falls after the tax filing deadline for the year of the sale?",
+   "a": "The exchange period is the earlier of 180 days or the due date of the tax return covering the year the relinquished property closed, so the exchanger typically needs to file a filing extension to preserve the full 180 days."
+  },
+  {
+   "q": "Can the replacement property closing date move once escrow opens in Jacksonville?",
+   "a": "It can move within the remaining window as long as all parties agree, but we recommend building slack into the schedule early rather than renegotiating a closing date against a deadline that is only a few days away."
+  },
+  {
+   "q": "Who is responsible for tracking the day count, the investor or the intermediary?",
+   "a": "The qualified intermediary holds the exchange funds and documents but does not act as the investor's legal deadline tracker, so we recommend the investor or their advisor keep an independent calendar of both the 45-day and 180-day dates."
+  },
+  {
+   "q": "Does a delay on the relinquished-property side extend the 180 days?",
+   "a": "No, the clock starts on the closing date of the relinquished property regardless of how long that sale took to negotiate, so any pre-closing delays have already been absorbed before the 180-day period even begins."
+  }
+ ],
+ "internalLinks": [],
+ "wordCount": 885
+}

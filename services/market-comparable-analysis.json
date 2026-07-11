@@ -1,0 +1,58 @@
+{
+ "slug": "market-comparable-analysis",
+ "taxonomy": "services",
+ "title": "Market Comparable Analysis",
+ "name": "Market Comparable Analysis",
+ "metaTitle": "Market Comparable Analysis in Jacksonville, FL",
+ "metaDescription": "Building the comparable-sales package that backs fair market value figures for a Jacksonville identification and lender worksheet.",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>Every fair market value figure that goes into a Jacksonville identification worksheet, whether for the 200-percent rule cap or a lender's loan-to-value calculation, needs a comparable-sales basis behind it. We build that comparable set before relying on a listing price or an asking figure, since a value that only holds up on paper can unravel once a lender's appraisal or the qualified intermediary's records are checked against it.</p>"
+  },
+  {
+   "heading": "Why Comparables Move Faster in Some Jacksonville Submarkets Than Others",
+   "html": "<p>Beaches-area retail parcels near Jacksonville Beach and Ponte Vedra Beach see comparable sales turn over faster than downtown or Southbank office product, where fewer transactions close in a given quarter and the comparable set can be thinner and older. Industrial comparables near JAXPORT and along the I-95 corridor tend to sit somewhere in between, with enough transaction volume to build a reasonable set but wide variation in price per square foot depending on clear height, dock configuration, and proximity to the port.</p><p>We weight the comparable set toward the most recent closed transactions in the same submarket and asset class, rather than defaulting to a metro-wide average that can mask real differences between a Westside logistics building and a downtown redevelopment site.</p>"
+  },
+  {
+   "heading": "The Comparable-Sales Worksheet",
+   "html": "<ul><li>Closed sale price and date for each comparable within the relevant submarket</li><li>Price per square foot or per unit adjusted for asset condition and age</li><li>Cap rate implied by in-place income where available</li><li>Adjustments for corridor location, port proximity, or beaches-area demand drivers</li><li>Final fair market value range presented alongside the underlying comparable set</li></ul>"
+  },
+  {
+   "heading": "Where Asking Price Diverges From Actual Comparable Value",
+   "html": "<p>The recurring problem we flag on Jacksonville identification worksheets is a candidate priced above what recent closed comparables support, particularly in beaches-area retail where a seller's asking price can reflect optimism about future demand rather than what buyers have actually paid recently. Building the identification worksheet off the asking price instead of the comparable range risks putting a list over the 200-percent cap once a real appraisal comes back lower.</p><p>We see the opposite problem less often but it still comes up, an owner near Naval Station Mayport pricing conservatively because they are unfamiliar with recent activity outside their immediate submarket, which can undersell a legitimate comparable value and lead an exchanger to pass on a candidate that was actually priced fairly.</p>"
+  },
+  {
+   "heading": "Reconciling Comparable Value With Lender Appraisals",
+   "html": "<p>A lender's appraisal is its own comparable-sales exercise, and it does not always land on the same figure our worksheet produces, particularly when the lender's appraiser has access to a different comparable set or applies different adjustments for a Northside industrial building's rail access. We reconcile any gap between our worksheet and the lender's appraisal before it affects the loan-to-value calculation or the boot exposure analysis.</p><p>When a meaningful gap does surface, we bring supporting comparable data back to the lender's appraiser directly rather than simply accepting a lower figure, since an appraiser working from an incomplete comparable set can sometimes revise a valuation once additional closed transactions are presented.</p>"
+  },
+  {
+   "heading": "Updating the Analysis as the Identification Window Closes",
+   "html": "<p>Comparable sales data is not static over a 45-day window, and a submarket with active transaction volume, such as industrial near JAXPORT, can see new closed sales come in during the identification period itself. We refresh the comparable set right before the identification notice is finalized rather than relying on data pulled at the start of the search, so the fair market value figures on the worksheet reflect the most current information available.</p><p>This refresh matters most on a 200-percent rule list running close to the cap, where even one or two newly closed comparables can shift the fair market value estimate for a pending candidate enough to require rebalancing the list before the identification notice goes out.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "How many comparable sales are needed to support a fair market value figure?",
+   "a": "There is no fixed number, but we generally look for several recent closed transactions in the same submarket and asset class rather than relying on one or two outliers that skew the range."
+  },
+  {
+   "q": "Does the comparable analysis replace a formal appraisal?",
+   "a": "No, it supports the identification worksheet and preliminary planning, but a lender will still require its own formal appraisal before closing, and we reconcile our figures against that appraisal when it comes back from the assigned appraiser."
+  },
+  {
+   "q": "Why do beaches-area comparables move faster than downtown office comparables?",
+   "a": "Transaction volume and buyer demand differ by asset class and submarket, with beaches-area retail typically seeing more frequent turnover than downtown or Southbank office product in a given calendar quarter."
+  },
+  {
+   "q": "What happens if a candidate's asking price is well above the comparable range?",
+   "a": "We flag it before it goes on the identification list, since relying on an inflated asking price can push a 200-percent rule worksheet over the cap once a real appraisal or updated comparable set comes in lower, and that discovery late in the window leaves little time to adjust the candidate list."
+  },
+  {
+   "q": "Does the comparable analysis account for port proximity separately from other location factors?",
+   "a": "Yes, for industrial candidates we adjust separately for proximity to JAXPORT and highway access, since those factors can move price per square foot independent of building age or condition, and treating them as a single blended adjustment can understate the real difference between submarkets on the list."
+  }
+ ],
+ "internalLinks": [],
+ "wordCount": 850
+}

@@ -1,0 +1,62 @@
+{
+ "slug": "nnn-and-stnl-property-sourcing",
+ "taxonomy": "services",
+ "title": "NNN and STNL Property Sourcing",
+ "name": "NNN and STNL Property Sourcing",
+ "metaTitle": "NNN and STNL Property Sourcing in Jacksonville, FL",
+ "metaDescription": "Single-tenant net lease sourcing for Jacksonville 1031 exchanges, scoped against corridor, tenant credit, and remaining lease term before identification.",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>Sourcing single-tenant net lease property for a Jacksonville exchange starts with a spec sheet, not a listing search: acceptable tenant categories, minimum remaining lease term, and corridor. That spec keeps the 45-day identification window focused on properties that already fit the investor's risk tolerance instead of a broad pull of every net-lease listing in the metro.</p>"
+  },
+  {
+   "heading": "Writing the Tenant Credit Spec Before Sourcing Starts",
+   "html": "<p>Net lease properties trade largely on tenant credit and remaining term, so the sourcing spec has to state upfront whether investment-grade national tenants are required or whether regional and local operators are acceptable at a higher cap rate. A spec that leaves this open produces a candidate list ranging from a corporate-guaranteed pharmacy lease to a locally owned quick-service tenant, and those two properties do not underwrite on the same basis even at similar list prices.</p><p>Remaining lease term needs the same clarity. A property with three years left before its first renewal option carries meaningfully different risk than one with twelve years remaining, and that distinction should be fixed in the spec rather than left for the investor to reconcile candidate by candidate.</p>"
+  },
+  {
+   "heading": "Where STNL Product Sits Along Jacksonville's Corridors",
+   "html": "<p>Single-tenant net lease product in the metro concentrates along the I-95 and I-10 corridors, where pad sites serve traffic feeding JAXPORT-related distribution and warehousing employment, and along retail corridors closer to the beaches where quick-service and pharmacy tenants serve year-round residential density. Westside and Northside pads generally price against logistics-driven traffic counts, while beaches-area pads price against retail and tourism-adjacent spending.</p><p>A sourcing scope that names the corridor, rather than only the metro, narrows the candidate list to properties with comparable traffic and demographic drivers rather than comparing a distribution-corridor pad against a beaches retail pad.</p>"
+  },
+  {
+   "heading": "The Submittal Package for Each Net Lease Candidate",
+   "html": "<p>Every net lease candidate is documented the same way before it reaches the identified list, so lease structure and tenant credit can be compared side by side.</p><ul><li>Full lease abstract including renewal options and rent escalations</li><li>Tenant financial disclosures or public credit rating where available</li><li>Landlord versus tenant responsibility for roof, structure, and parking lot repairs</li><li>Estoppel certificate request initiated with the current tenant</li><li>Title commitment reviewed for any use restrictions or easements</li></ul>"
+  },
+  {
+   "heading": "Matching Lease Term to the 180-Day Close",
+   "html": "<p>Net lease acquisitions generally close faster than multifamily or industrial deals since the underwriting centers on tenant credit rather than physical inspection depth, which is useful when the 180-day exchange period is already partly consumed by the relinquished sale. Confirming the tenant's estoppel and any required landlord consents early keeps that shorter closing timeline intact rather than assuming it will move quickly by default.</p>"
+  },
+  {
+   "heading": "Closing Out the File",
+   "html": "<p>Once a net lease property is selected, the file closes with a signed estoppel from the tenant, confirmation that the assignment of lease transfers cleanly at closing, and the qualified intermediary notified with the specific parcel identification. Running that same closeout sequence regardless of tenant category keeps net lease acquisitions consistent whether the property sits along the I-95 corridor or closer to the beaches.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "What separates NNN from STNL as property categories?",
+   "a": "The terms overlap in practice, but NNN generally describes the lease structure where the tenant pays taxes, insurance, and maintenance, while single-tenant net lease, or STNL, describes the physical property type of a building leased to one occupant. Most Jacksonville net lease sourcing evaluates both the lease terms and the single-tenant structure together."
+  },
+  {
+   "q": "How much does remaining lease term matter compared to cap rate?",
+   "a": "Remaining term matters more for exchange purposes, since a lower cap rate with twelve years of term left generally carries less renewal risk than a higher cap rate with three years remaining before an option decision. Both are legitimate strategies, but the spec should state which one the investor is targeting before sourcing begins."
+  },
+  {
+   "q": "Do pad sites along the I-95 and I-10 corridors trade differently than beaches-area retail pads?",
+   "a": "Yes, corridor pads generally price against logistics and commuter traffic counts feeding warehousing and distribution employment, while beaches-area pads price against resident and tourism spending patterns. Comparing the two directly on cap rate alone misses the underlying demand driver behind each."
+  },
+  {
+   "q": "What due diligence item gets missed most often on net lease acquisitions?",
+   "a": "Landlord versus tenant responsibility for roof and structural repairs is the item most often assumed rather than confirmed in the lease abstract, and getting that wrong can leave the investor responsible for a major repair that was presumed to sit with the tenant. Reviewing that clause directly, not from a summary, avoids the surprise."
+  },
+  {
+   "q": "Can a net lease property with a tenant currently in a renewal option period still be identified?",
+   "a": "Yes, a property mid-option can be identified, but the investor should understand whether the tenant has exercised the option or is still deciding before treating the remaining term as certain. That status is confirmed directly with the tenant through the estoppel process rather than assumed from the lease document alone."
+  },
+  {
+   "q": "How does a rent escalation clause affect a net lease property's value beyond the current cap rate?",
+   "a": "A fixed annual escalation or a periodic step-up in rent increases the property's income over the hold period, which matters more to an investor planning a long hold than to one comparing only the first-year cap rate across candidates. Reviewing the escalation schedule alongside the entry yield, rather than the entry yield alone, gives a clearer picture of the property's total return."
+  }
+ ],
+ "internalLinks": [],
+ "wordCount": 871
+}

@@ -1,0 +1,58 @@
+{
+ "slug": "form-8824-preparation-support",
+ "taxonomy": "services",
+ "title": "Form 8824 Preparation Support",
+ "name": "Form 8824 Preparation Support",
+ "metaTitle": "Form 8824 Preparation Support in Jacksonville, FL",
+ "metaDescription": "Assembling the reconciled closing figures and carryover basis inputs a Jacksonville tax preparer needs to complete Form 8824 accurately.",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>Form 8824 is the return where a like-kind exchange either holds up or unravels, since it is where realized gain, recognized gain, boot, and carryover basis all get reconciled in one place. We do not prepare or file the form itself, that is the exchanger's CPA or tax advisor's role, but we assemble the closing figures and property descriptions in the format a preparer actually needs rather than handing over two disconnected settlement statements and letting them sort it out.</p>"
+  },
+  {
+   "heading": "The Inputs a Jacksonville Preparer Needs Assembled",
+   "html": "<p>Form 8824 asks for the relinquished property's adjusted basis, the fair market value and adjusted basis of the replacement property, any liabilities assumed or relieved on both sides, and the amount of any cash boot received. Pulling those figures directly from two separate Jacksonville closing statements without reconciling them against each other is where preparers most often run into gaps, since a settlement statement is built for the closing itself, not for tax reporting.</p><p>We build a single reconciliation sheet that lines up both closings side by side, adjusted basis carried from the relinquished property, new basis calculated on the replacement acquisition, and any boot identified during the exchange, so the preparer has one source document instead of reconstructing the numbers from scratch.</p>"
+  },
+  {
+   "heading": "The Reconciliation Package",
+   "html": "<p>Assembling these figures in the right order matters as much as gathering them at all, since a preparer working through the form line by line needs the relinquished-property numbers established before the replacement-property calculations make sense.</p><ul><li>Adjusted basis of the relinquished property before the exchange</li><li>Fair market value and purchase price of the replacement property or DST allocation</li><li>Debt relieved on the relinquished side compared with new debt assumed on the replacement side</li><li>Cash boot, if any, identified through the boot calculation worksheet</li><li>Carryover basis calculation for the replacement property going forward</li></ul>"
+  },
+  {
+   "heading": "Where Basis Carryover Gets Miscalculated",
+   "html": "<p>The most common error we see on Jacksonville exchanges involving improvement work is treating the replacement property's purchase price as its full basis, without adjusting for the carryover basis rules that reduce the new property's basis by deferred gain from the relinquished sale. This matters more on properties with significant improvement or construction costs added after acquisition, since the depreciation schedule going forward depends on getting the carryover basis figure right from day one.</p><p>It also shows up on straightforward acquisitions with no construction involved, such as a beaches-area retail parcel bought outright, where a preparer working only from the purchase contract can miss that a portion of the purchase price actually represents carried-over deferred gain rather than new basis eligible for a fresh depreciation schedule.</p>"
+  },
+  {
+   "heading": "Coordinating With a DST Allocation on the Same Return",
+   "html": "<p>When part of an exchange is placed into a DST allocation alongside a direct property purchase, Form 8824 needs basis figures for both pieces separately, since the DST interest carries its own fractional basis calculation tied to the sponsor's offering. We keep the DST subscription documents and the direct-property closing statement in the same reconciliation package so the preparer is not working from two unrelated sources.</p><p>Sponsor-provided tax reporting packages for a DST interest typically arrive on a different schedule than a standard closing statement, sometimes months after the calendar year closes, so we flag that timing gap to the preparer early rather than assuming both sets of figures will be available at the same time.</p>"
+  },
+  {
+   "heading": "Handing Off a Complete File Before the Filing Deadline",
+   "html": "<p>Form 8824 is due with the tax return covering the year the relinquished property closed, which is the same return that may need an extension to preserve the full 180-day exchange period in the first place. We deliver the reconciliation package to the exchanger's tax advisor well ahead of that filing deadline, rather than during the final weeks when there is little time left to question figures that do not tie out.</p><p>For a Jacksonville exchange spanning two calendar years, the replacement property closing in January while the relinquished sale closed the prior November, we flag the extension requirement early rather than assuming the standard filing deadline leaves enough runway to cover the full 180-day period.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Do you prepare and file Form 8824 for Jacksonville exchangers?",
+   "a": "No, we assemble the closing figures and reconciliation package the form requires, but the exchanger's CPA or tax advisor prepares and files the actual return."
+  },
+  {
+   "q": "Which tax year does Form 8824 get filed with?",
+   "a": "The return covering the year the relinquished property closed, even if the replacement property purchase closes in the following calendar year."
+  },
+  {
+   "q": "Does the form change if a Jacksonville exchange included any boot?",
+   "a": "Yes, Form 8824 has specific lines for recognized gain from boot, which is why the boot calculation worksheet needs to be finalized before the reconciliation package goes to the preparer."
+  },
+  {
+   "q": "What happens if the replacement property's basis is calculated incorrectly?",
+   "a": "An incorrect basis carries forward into future depreciation calculations and can create problems on a later sale, which is why we recommend reconciling the figures against both closing statements rather than relying on the purchase price alone."
+  },
+  {
+   "q": "Can the reconciliation package be prepared before both closings are finished?",
+   "a": "A preliminary version can be built once the relinquished property closes, but the final figures depend on the replacement property's actual closing statement, so we update the package once that second closing is complete."
+  }
+ ],
+ "internalLinks": [],
+ "wordCount": 851
+}

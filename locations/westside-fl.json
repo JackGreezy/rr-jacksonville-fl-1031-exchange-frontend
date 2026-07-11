@@ -1,0 +1,58 @@
+{
+ "slug": "westside-fl",
+ "taxonomy": "locations",
+ "title": "Westside",
+ "name": "Westside",
+ "metaTitle": "Westside Jacksonville 1031 Exchange Services in Jacksonville, FL",
+ "metaDescription": "Westside 1031 exchange coordination for industrial and flex replacement property at Cecil Commerce Center and the I-10 corridor.",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>Westside carries Jacksonville's Cecil Commerce Center industrial park along with the broader I-10 corridor, and the replacement-property scope here is almost entirely industrial and flex space rather than retail or office. A submittal package for this submarket should specify building type and clear height up front, since the range within Westside's industrial stock is wide.</p><p>Tenant credit profile should also be specified early, since the corridor mixes national logistics tenants with smaller regional operators, and the two carry materially different lender treatment despite occupying comparable buildings.</p>"
+  },
+  {
+   "heading": "Industrial Scope at Cecil Commerce Center and the I-10 Corridor",
+   "html": "<p>Cecil Commerce Center occupies the former Naval Air Station Cecil Field site and now combines an active general-aviation and space-launch-designated airfield with a large surrounding industrial park, giving the corridor a mix of big-box distribution buildings, build-to-suit manufacturing sites, and smaller flex-industrial parcels. Chaffee Road and Normandy Boulevard function as the corridor's primary access roads connecting the park to I-10.</p><p>Residential neighborhoods along Normandy Boulevard and Cecil Commerce Center's blue-collar workforce base support tenant hiring for logistics and manufacturing operations in this corridor, and a wage and commute-distance profile of that workforce is worth confirming for any tenant whose operation is labor-intensive.</p>"
+  },
+  {
+   "heading": "Property Types",
+   "html": "<p>Westside's identification lists typically draw from the following categories:</p><ul><li>big-box distribution buildings at Cecil Commerce Center</li><li>build-to-suit manufacturing and assembly sites</li><li>small-bay flex industrial along Chaffee Road</li><li>outdoor storage and trailer-parking parcels</li><li>truck terminal and cross-dock facilities near I-10</li></ul><p>Pricing across these categories tracks specification more than location within the corridor, and a building with modern clear heights and ESFR coverage generally commands a premium over an older building with a larger footprint but dated specifications.</p>"
+  },
+  {
+   "heading": "Building Specifications for Big-Box and Flex Industrial",
+   "html": "<p>Clear height, column spacing, dock-door ratio, and trailer-court depth should be documented and compared against the tenant's actual operating requirements rather than the building's original marketing specification, since several Cecil Commerce Center buildings have changed tenants multiple times since original construction and been reconfigured along the way. Power capacity is a growing line item as manufacturing and assembly tenants move into space originally built for straight distribution use.</p><p>Fire suppression system classification, particularly ESFR sprinkler coverage, should be confirmed for any tenant storing rack-stacked inventory, since retrofitting an older Cecil Commerce Center building to current ESFR standards is a material capital item that should be priced before closing rather than discovered afterward.</p>"
+  },
+  {
+   "heading": "Rail, Airfield, and Access Diligence Items",
+   "html": "<p>The active airfield at Cecil Commerce Center imposes height restrictions and noise considerations on parcels near the runway that do not apply elsewhere in Westside, and any property within the airfield's influence area should be checked against current use restrictions before it goes on an identification list. Truck routing to I-10 and the I-295 West Beltway should be verified for any building whose tenant depends on regional distribution rather than local delivery.</p><p>Water and wastewater capacity should be confirmed directly with the utility provider for any manufacturing tenant with process-water requirements, since capacity in parts of this corridor has not always kept pace with the industrial park's build-out.</p>"
+  },
+  {
+   "heading": "Sequencing Given Build-to-Suit Timelines",
+   "html": "<p>Because a meaningful share of Cecil Commerce Center's newer inventory is delivered on a build-to-suit basis rather than sold as speculative product, exchangers should confirm a target property's actual delivery and stabilization schedule well before the 45-day window opens, since a build-to-suit still under construction may not qualify as identifiable replacement property on the timeline an exchange requires. Lender familiarity with manufacturing and assembly collateral in this corridor should be confirmed early as well.</p><p>A qualified intermediary experienced with industrial exchanges should be engaged before the target property is under contract, since the documentation for a build-to-suit or recently delivered building differs from a standard existing-building acquisition file.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "What makes Cecil Commerce Center different from other Jacksonville industrial submarkets?",
+   "a": "It combines a large surrounding industrial park with an active general-aviation and space-launch-designated airfield on the former Naval Air Station Cecil Field site, which introduces height and noise considerations that other Westside parcels do not have."
+  },
+  {
+   "q": "Can a build-to-suit property under construction be identified in a 1031 exchange?",
+   "a": "Only if its delivery and stabilization schedule fits within the exchange timeline; a buyer should confirm actual construction status directly with the developer rather than assume a marketed completion date will hold, since construction delays are common on larger build-to-suit projects in this corridor."
+  },
+  {
+   "q": "What building specifications matter most for Westside industrial diligence?",
+   "a": "Clear height, column spacing, dock-door ratio, and trailer-court depth compared against the tenant's actual operating requirements, since several buildings in this corridor have been reconfigured since original construction and may no longer match the specification listed in the original permit file."
+  },
+  {
+   "q": "How does the Cecil Field airfield affect nearby industrial parcels?",
+   "a": "Parcels within the airfield's influence area may carry height restrictions and noise considerations that should be checked against current use restrictions before a property is added to an identification list, particularly for any building considering vertical expansion or rooftop equipment additions."
+  },
+  {
+   "q": "What access corridors matter for Westside distribution tenants?",
+   "a": "Chaffee Road and Normandy Boulevard connect the park to I-10, and truck routing to I-10 and the I-295 West Beltway should be verified for any tenant dependent on regional rather than local distribution, including confirmation of actual drive times during peak commuting hours rather than off-peak estimates."
+  }
+ ],
+ "internalLinks": [],
+ "wordCount": 851
+}

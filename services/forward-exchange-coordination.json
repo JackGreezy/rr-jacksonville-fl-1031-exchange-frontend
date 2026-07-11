@@ -1,0 +1,58 @@
+{
+ "slug": "forward-exchange-coordination",
+ "taxonomy": "services",
+ "title": "Forward Exchange Coordination",
+ "name": "Forward Exchange Coordination",
+ "metaTitle": "Forward Exchange Coordination in Jacksonville, FL",
+ "metaDescription": "Coordinating the standard sell-first exchange sequence for Jacksonville investors selling one property before acquiring another.",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>A forward exchange is the standard sequence: the relinquished property sells first, the qualified intermediary holds the proceeds, and the exchanger identifies and closes on replacement property within the 45-day and 180-day windows that follow. It is the most common structure we coordinate for Jacksonville investors, and most of the moving pieces, escrow setup, identification, and closing sequencing, follow this order rather than the reverse structure where replacement property is acquired first.</p>"
+  },
+  {
+   "heading": "Setting Up the Intermediary Before the Sale Closes",
+   "html": "<p>The exchange agreement with the qualified intermediary has to be in place before the relinquished property closes, not after, since funds that pass directly to the exchanger even briefly can trigger constructive receipt and disqualify the exchange. We coordinate this setup as soon as a Jacksonville sale contract is signed, well before the closing date, so the intermediary is already assigned into the transaction when settlement happens.</p><p>Constructive receipt is the failure mode we watch most closely at this stage: if the exchanger has the ability to direct or access the sale proceeds at any point, even without actually taking the funds, the exchange can be disqualified. The intermediary agreement removes that access by design, which is why it needs to be executed ahead of the closing rather than treated as paperwork to clean up afterward.</p>"
+  },
+  {
+   "heading": "The Sequence From Relinquished Sale to Replacement Closing",
+   "html": "<ul><li>Exchange agreement executed with the qualified intermediary before the relinquished sale closes</li><li>Relinquished property closes and net proceeds transfer to the intermediary's escrow account</li><li>Replacement property candidates identified within 45 days of that closing</li><li>Purchase contract, financing, and title work finalized on the chosen candidate</li><li>Replacement property closes within 180 days, completing the exchange</li></ul>"
+  },
+  {
+   "heading": "Coordinating the Search While the Relinquished Sale Is Still Pending",
+   "html": "<p>Because the 45-day clock starts at closing, not at contract signing, a Jacksonville exchanger who waits until the relinquished sale actually closes to start looking at replacement candidates is giving up valuable search time. We begin scouting properties near JAXPORT, the beaches, or the I-95 and I-10 corridors while the relinquished sale is still under contract, so the identification list can be assembled quickly once the clock actually starts.</p><p>This early scouting period also gives room to schedule property tours around the exchanger's own availability rather than compressing everything into the first two weeks after closing, which matters for an out-of-state investor who can only make one or two trips to Jacksonville before a decision needs to be made.</p>"
+  },
+  {
+   "heading": "Where Forward Exchanges Run Into Trouble Locally",
+   "html": "<p>The recurring issue on Jacksonville forward exchanges is a replacement property search that starts too late, either because the relinquished sale closed faster than expected or because the exchanger assumed there would be more time to shop once proceeds were in escrow. A rushed 45-day search across a metro as spread out as Jacksonville, from downtown and Southbank office product to Westside industrial and beaches retail, tends to produce a weaker identification list than one built with even a few weeks of lead time.</p><p>A second issue is underestimating how long lender preflight takes relative to the exchange clock, particularly on leveraged industrial acquisitions near I-95 and I-10, where a lender unfamiliar with exchange timelines can quote a standard underwriting schedule that does not fit comfortably inside the remaining days of the 180-day window.</p>"
+  },
+  {
+   "heading": "Handing Off to Closing Coordination and Documentation",
+   "html": "<p>Once a replacement candidate is under contract, forward exchange coordination overlaps directly with closing schedule tracking and document assembly, since both closings now need to be managed against the same 180-day clock. We keep those workstreams connected rather than treating the search phase and the closing phase as separate projects with separate files.</p><p>That handoff includes carrying forward every figure gathered during the search phase, comparable values, lender preflight notes, boot exposure flags, into the closing file, so nothing has to be re-derived once a specific Jacksonville property moves from candidate to contract.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "What makes an exchange a forward exchange instead of a reverse exchange?",
+   "a": "In a forward exchange the relinquished property sells before the replacement property is acquired; in a reverse exchange the replacement property is acquired first, which requires a different holding structure since an exchanger cannot hold both properties at once under a standard exchange."
+  },
+  {
+   "q": "Can a Jacksonville exchanger start looking at replacement properties before the relinquished sale closes?",
+   "a": "Yes, and we recommend it, since the 45-day identification clock does not start until the relinquished property actually closes, so early scouting effectively extends the usable search time."
+  },
+  {
+   "q": "What is constructive receipt and why does it matter in a forward exchange?",
+   "a": "Constructive receipt means the exchanger had access to or control over the sale proceeds, even briefly, which can disqualify the exchange; the qualified intermediary structure exists specifically to prevent that outcome from happening."
+  },
+  {
+   "q": "Does a forward exchange require the same qualified intermediary for both closings?",
+   "a": "Yes, the same intermediary that receives the relinquished-property proceeds is the one that funds the replacement-property acquisition, maintaining continuity across both transactions and the required paper trail between them."
+  },
+  {
+   "q": "What happens if the relinquished property sale falls through after the intermediary agreement is signed?",
+   "a": "If the sale never closes, the exchange never starts, and the exchanger would need to either restart the process with a new buyer or proceed with a taxable sale outside the exchange structure entirely, without the deferral a completed exchange would have provided."
+  }
+ ],
+ "internalLinks": [],
+ "wordCount": 850
+}

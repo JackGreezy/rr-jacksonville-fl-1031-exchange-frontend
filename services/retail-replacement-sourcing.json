@@ -1,0 +1,70 @@
+{
+ "slug": "retail-replacement-sourcing",
+ "taxonomy": "services",
+ "title": "Retail Replacement Sourcing",
+ "name": "Retail Replacement Sourcing",
+ "metaTitle": "Retail Replacement Sourcing in Jacksonville, FL",
+ "metaDescription": "Retail replacement sourcing for Jacksonville 1031 exchanges, scoped by corridor and tenant mix from beaches retail to inland strip centers.",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>Retail replacement sourcing in Jacksonville runs on a corridor spec first, tenant mix second. Beaches-area retail, inland strip centers, and pad sites along the distribution corridors each pull a different buyer pool, so the sourcing scope names the corridor before candidate properties are pulled rather than searching the metro as one undifferentiated retail market.</p>"
+  },
+  {
+   "heading": "Naming the Corridor Before the Search Opens",
+   "html": "<p>A retail property near Jacksonville Beach or Atlantic Beach trades against tourism and year-round resident spending, while an inland strip center in Southside or Mandarin trades against daily commuter and neighborhood traffic. Writing the corridor into the sourcing spec up front, along with acceptable center size and anchor tenant category, keeps the candidate list from mixing two demand profiles that price differently even at similar cap rates.</p>"
+  },
+  {
+   "heading": "Reading Anchor Tenant Strength Across Center Types",
+   "html": "<p>A grocery-anchored or pharmacy-anchored center generally carries steadier co-tenancy clauses than a small unanchored strip, and those clauses can trigger rent reductions or lease termination rights if the anchor vacates. Confirming co-tenancy language in the anchor lease before an offer is submitted, not after, is what keeps a retail acquisition from carrying a hidden dependency the investor did not intend to take on.</p><p>Smaller inline tenants also deserve individual review rather than being treated as a single blended figure, since one struggling tenant in a six-unit strip has a different effect on income than one struggling tenant in a thirty-unit center.</p>"
+  },
+  {
+   "heading": "The Submittal Package for Each Retail Candidate",
+   "html": "<p>Every retail candidate is documented to the same standard before it reaches the identification list.</p><ul><li>Full rent roll with co-tenancy and exclusive-use clauses flagged</li><li>Anchor tenant lease abstract and remaining term</li><li>Common area maintenance reconciliation history for the trailing two years</li><li>Parking ratio and zoning confirmation for current use</li><li>Traffic count data for the corridor, where available</li></ul>"
+  },
+  {
+   "heading": "Matching the Deal to the 180-Day Close",
+   "html": "<p>Retail acquisitions with multiple tenants generally take longer to close than a single-tenant net lease purchase, since estoppels have to be collected from each tenant rather than one. Building that estoppel collection timeline into the closing schedule early, particularly on centers with a dozen or more tenants, keeps the acquisition inside the 180-day exchange period rather than running the deadline down to the wire.</p>"
+  },
+  {
+   "heading": "Closing Out the File",
+   "html": "<p>Once a retail property is selected, the file closes with signed estoppels from each material tenant, a final CAM reconciliation review, and the qualified intermediary notified of the specific parcel proceeding to purchase. Running that closeout consistently across every retail acquisition, whether the property sits along the beaches or inland near Mandarin or Southside, keeps the file organized regardless of tenant count.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "How does beaches-area retail differ from inland strip center sourcing?",
+   "a": "Beaches-area retail near Jacksonville Beach or Atlantic Beach trades against tourism and year-round resident spending, while inland strip centers in areas like Southside or Mandarin trade against commuter and neighborhood traffic patterns. Naming the corridor in the sourcing scope keeps candidates comparable rather than mixing two different demand drivers."
+  },
+  {
+   "q": "What is a co-tenancy clause, and why does it matter for retail acquisitions?",
+   "a": "A co-tenancy clause can allow a tenant to reduce rent or terminate its lease if an anchor tenant vacates, which means a center's income can be more dependent on one tenant's presence than the rent roll alone suggests. Reviewing that clause in the anchor lease before an offer is submitted is a required step, not an optional one."
+  },
+  {
+   "q": "How many estoppels are typically needed to close a multi-tenant retail acquisition?",
+   "a": "Most lenders and buyers request estoppels from tenants representing a majority of the property's income, though the exact threshold varies by deal. Starting that collection process as soon as a property is under contract, rather than waiting until closer to closing, avoids delay on centers with many tenants."
+  },
+  {
+   "q": "Does CAM reconciliation history affect underwriting on a retail purchase?",
+   "a": "Yes, a history of under-billed or disputed common area maintenance charges can mean the property's actual net operating income is lower than the rent roll implies once reconciliations catch up. Reviewing the trailing two years of CAM reconciliations before finalizing an offer surfaces that gap early."
+  },
+  {
+   "q": "Can a retail property with a recently vacated anchor still be identified?",
+   "a": "Yes, but the investor should understand the co-tenancy exposure on remaining tenants and have a realistic re-tenanting plan before treating the property as a straightforward acquisition. That risk should be priced into the offer rather than discovered after the exchange has already closed."
+  },
+  {
+   "q": "How does traffic count data factor into retail sourcing along Jacksonville corridors?",
+   "a": "Traffic count data gives a rough proxy for the customer base a retail location can draw, and comparing a candidate's counts against similar properties along the same corridor helps confirm whether current rents are supportable. It works best as a supporting data point alongside tenant sales history rather than a stand-alone reason to pursue a property."
+  },
+  {
+   "q": "What should be reviewed before assuming a vacant retail suite can be quickly re-leased?",
+   "a": "Zoning and permitted use restrictions, parking ratio adequacy for the intended tenant type, and recent leasing activity for comparable spaces along the same corridor all affect how quickly a vacant suite actually leases. Assuming a fast lease-up without checking those factors can leave a gap in projected income longer than expected."
+  },
+  {
+   "q": "How should exclusive-use clauses in existing leases be checked before adding a new tenant?",
+   "a": "An exclusive-use clause can restrict what type of business a center's owner is allowed to lease other suites to, so every existing lease should be reviewed for exclusivity language before marketing a vacant suite to a new prospective tenant. Missing an exclusive clause can expose the property to a lease dispute with an existing tenant after a new lease is already signed."
+  }
+ ],
+ "internalLinks": [],
+ "wordCount": 915
+}

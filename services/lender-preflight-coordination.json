@@ -1,0 +1,58 @@
+{
+ "slug": "lender-preflight-coordination",
+ "taxonomy": "services",
+ "title": "Lender Preflight Coordination",
+ "name": "Lender Preflight Coordination",
+ "metaTitle": "Lender Preflight Coordination in Jacksonville, FL",
+ "metaDescription": "Getting Jacksonville replacement property financing pre-underwritten before the 45-day identification deadline forces a decision.",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>Lender underwriting is one of the few parts of an exchange that does not compress well inside a 45-day identification window if it starts from a cold file. We build a preflight package, financial statements, entity documents, and a pro forma on the target asset class, before a specific Jacksonville candidate is even under contract, so the lender's underwriting timeline is already running in parallel rather than starting from zero once a property is identified.</p>"
+  },
+  {
+   "heading": "Why Preflight Matters More on a Jacksonville Exchange",
+   "html": "<p>A tight identification window leaves little room for a lender to request additional financial documentation after a candidate is already named on the list. We have seen deals near JAXPORT and along the I-95 corridor lose weeks to a lender asking for updated entity documents or a revised personal financial statement that could have been assembled before the identification deadline instead of during it. Preflight coordination front-loads that request list so the exchanger is not scrambling to produce documents against a 45-day clock that is already running.</p><p>It matters just as much on a beaches-area or downtown asset, where flood zone determinations and updated appraisals can add lender review time that a preflight package anticipates rather than discovers midstream.</p>"
+  },
+  {
+   "heading": "The Preflight Document Package",
+   "html": "<ul><li>Entity formation documents and operating agreement for the acquiring entity</li><li>Personal financial statement and schedule of real estate owned</li><li>Two years of tax returns or financial statements as the lender requires</li><li>Pro forma rent roll or income projection for the target asset class</li><li>Preliminary term sheet request based on the likely candidate's profile</li></ul>"
+  },
+  {
+   "heading": "Matching the Loan Structure to the Exchange Timeline",
+   "html": "<p>A lender's standard underwriting timeline, appraisal, environmental review, title commitment, does not automatically compress just because an exchange deadline is approaching. We confirm early whether a lender can commit to a closing date inside the 180-day window given their current pipeline, rather than assuming any lender can move at exchange speed once asked. Some Jacksonville lenders active in the industrial and multifamily space are more accustomed to exchange timelines than others.</p><p>We also ask directly whether a lender's appraisal panel has recent experience with the specific asset class and submarket in play, since a lender assigning an appraiser unfamiliar with, say, beaches-area retail demand drivers can add review cycles that a more experienced panel would not need.</p>"
+  },
+  {
+   "heading": "Coordinating Debt Levels to Avoid Boot",
+   "html": "<p>The preflight process also flags whether the likely loan-to-value ratio on a target asset class will produce enough debt to match what was relieved on the relinquished property, since a shortfall creates mortgage boot exposure. We raise that comparison with the lender before a specific property is identified, so the exchanger has a realistic sense of how much additional equity might be needed rather than discovering a debt shortfall once terms come back on an actual candidate.</p><p>This comparison is especially useful for a Jacksonville exchanger moving from an older, largely paid-down property into a newer acquisition, where the natural loan-to-value on the replacement side may not come close to matching the debt relieved on the relinquished sale without a deliberate financing decision.</p>"
+  },
+  {
+   "heading": "Keeping the Package Current as Candidates Change",
+   "html": "<p>Because the identification list can include multiple candidates across different asset classes, industrial near the port, multifamily closer to downtown, retail at the beaches, we keep the preflight package flexible enough to support underwriting on more than one property type. A pro forma prepared only for a single industrial candidate does not help if the exchanger ultimately moves toward a multifamily or retail replacement instead.</p><p>We update the entity and financial documentation portion of the package on a set schedule during the search window, since a personal financial statement or schedule of real estate owned that was accurate on day one can be stale by day thirty if other transactions closed in the meantime, and a lender working from outdated figures can slow underwriting right when speed matters most.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "How early should lender preflight start before a Jacksonville exchange closing?",
+   "a": "As early as possible, ideally before the relinquished property even closes, so the identification window does not have to absorb the time needed to assemble standard lender documentation and entity paperwork."
+  },
+  {
+   "q": "Can preflight coordination guarantee a specific closing date?",
+   "a": "No, it confirms a lender's likely timeline and documentation requirements in advance, but the actual commitment still depends on the specific property once it is under contract and its own appraisal and title work are complete."
+  },
+  {
+   "q": "Does preflight work differ for a DST allocation versus a direct purchase?",
+   "a": "Yes, a DST allocation typically comes with financing already structured by the sponsor, so preflight coordination there focuses more on confirming the built-in debt terms than on soliciting a new loan from a bank or credit union."
+  },
+  {
+   "q": "What happens if the lender's underwriting reveals a debt shortfall late in the process?",
+   "a": "It can create mortgage boot exposure or require additional cash equity, which is why we raise the debt-level comparison during preflight rather than waiting for final loan terms on a specific candidate."
+  },
+  {
+   "q": "Is preflight coordination different for a Naval Station-adjacent property with military tenants?",
+   "a": "Lenders may apply different underwriting assumptions to properties with government or military-adjacent tenant concentrations, so we flag that tenant profile during preflight rather than after a term sheet is issued, since it can affect both the loan-to-value assumption and the appraisal approach used."
+  }
+ ],
+ "internalLinks": [],
+ "wordCount": 852
+}

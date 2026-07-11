@@ -1,0 +1,58 @@
+{
+ "slug": "200-percent-rule-strategy",
+ "taxonomy": "services",
+ "title": "200 Percent Rule Strategy",
+ "name": "200 Percent Rule Strategy",
+ "metaTitle": "200 Percent Rule Strategy in Jacksonville, FL",
+ "metaDescription": "Auditing a Jacksonville identification list against the 200-percent value ceiling across JAXPORT industrial, Southbank medical, and beaches-area candidates.",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>A spending ceiling does not care how many line items sit under it, and neither does the 200-percent rule. Where the three-property rule audits a Jacksonville identification list by counting addresses, the 200-percent rule audits it by adding up dollars: name as many replacement candidates as the file needs, provided their combined fair market value never crosses twice the relinquished property's sale price. That distinction matters most the moment a JAXPORT-adjacent industrial candidate and a Southbank medical building both look worth holding onto past day thirty.</p>"
+  },
+  {
+   "heading": "The Ceiling Is Set the Day the Relinquished Sale Closes",
+   "html": "<p>The 200-percent ceiling is fixed the moment the relinquished property's sale price is known, not renegotiated later if a candidate's value moves. Sell a Duval industrial building for five million dollars, and the identification list can carry up to ten million in combined fair market value spread across any number of candidates, whether that is a Northside distribution property, a Westside flex building, and a beaches-area retail parcel, or six smaller candidates near the Naval Station Mayport employment base. The count stays unlimited; only the running total against that ten-million ceiling matters.</p>"
+  },
+  {
+   "heading": "Documentation an Audit Trail Needs Before Day Forty-Five",
+   "html": "<p>An identification list that would hold up under later review keeps a specific paper trail behind every candidate, not only a set of addresses handed to the qualified intermediary.</p><ul><li>Broker opinion of value or appraisal supporting each candidate's fair market value</li><li>Running total of combined value checked against the 200-percent ceiling</li><li>Date each candidate's value estimate was last updated</li><li>Written identification notice delivered to the QI inside the 45-day window</li><li>Record of any candidate dropped or swapped before day 45, and why</li></ul>"
+  },
+  {
+   "heading": "Where a Southbank Medical Candidate Complicates the Running Total",
+   "html": "<p>A Southbank medical office candidate rarely prices the way a JAXPORT-adjacent industrial building does. Medical space trades on tenant credit and remaining lease term more than on comparable per-square-foot sales, so two brokers can hand back materially different opinions of value for the same building depending on how they weigh the tenant roster. Treating that spread as noise rather than resolving it before the identification notice is filed is the most common way a Jacksonville list ends up over the 200-percent ceiling without anyone noticing until an appraisal comes back later.</p>"
+  },
+  {
+   "heading": "Pairing I-95 Industrial With Southbank and Beaches Candidates Instead of Stacking One Asset Class",
+   "html": "<p>A list built entirely from similar buildings along I-95 or I-10 concentrates the same submarket risk five times over. A Jacksonville list gets more usable optionality by pairing a port-adjacent industrial candidate with a Southbank medical or downtown office building and a beaches-area retail parcel, since financing and leasing conditions on each move independently. If diligence eliminates the industrial candidate, the medical and retail candidates are not exposed to the same lender appraisal issue that took the first one out.</p>"
+  },
+  {
+   "heading": "Recomputing the Ceiling Every Time Naval Station Mayport-Area Financing Moves",
+   "html": "<p>Financing conditions tied to the Mayport and NAS Jacksonville employment base can shift a candidate's appraised value inside the 45-day window even when nothing about the property itself has changed. A list that clears the 200-percent ceiling comfortably in week one can be pressed against it by week four if a lender's appraisal on one candidate comes in above the broker opinion used to build the worksheet. Rechecking the running total every time a candidate's price or appraisal changes, rather than trusting the first calculation through to day 45, is what keeps the ceiling holding under Florida's no-state-income-tax inbound investor demand pressing on the same properties.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Is the 200-percent ceiling recalculated if a candidate's price changes after it is first identified?",
+   "a": "The ceiling itself, set against the relinquished property's sale price, does not move, but the running total of identified value has to be rechecked any time a candidate's price or appraisal changes. A list that cleared the ceiling in week one can need trimming by week four if a lender's appraisal comes in above the broker opinion used originally."
+  },
+  {
+   "q": "Why does a Southbank medical candidate sometimes push a Jacksonville list over the 200-percent line?",
+   "a": "Medical space prices on tenant credit and lease term rather than straightforward comparable sales, so two valuation opinions on the same building can diverge more than they would for an industrial property. Resolving that spread with a formal appraisal before the identification notice is filed avoids a surprise once the list is finalized."
+  },
+  {
+   "q": "What happens if the identified list's combined value exceeds 200 percent of the sale price?",
+   "a": "If the total exceeds the ceiling and the exchanger does not go on to acquire at least 95 percent of what was identified, the entire identification can be disqualified, rather than only the amount identified in excess of the ceiling. That is why the running total gets checked every time a candidate changes rather than only at the deadline."
+  },
+  {
+   "q": "Does a DST allocation count toward the 200-percent value total for a Jacksonville exchange?",
+   "a": "Yes. A DST interest is valued the same as any directly owned candidate for purposes of the aggregate ceiling and has to be included in the running total the qualified intermediary tracks."
+  },
+  {
+   "q": "Should a Jacksonville identification list stick to one asset class or mix property types?",
+   "a": "Mixing property types, such as pairing a port-adjacent industrial candidate with a Southbank medical or beaches-area retail property, spreads exposure across submarkets that move independently. A list concentrated in one asset class along a single corridor is more exposed if financing or appraisal conditions shift in that submarket specifically."
+  }
+ ],
+ "internalLinks": [],
+ "wordCount": 862
+}

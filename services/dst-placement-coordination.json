@@ -1,0 +1,58 @@
+{
+ "slug": "dst-placement-coordination",
+ "taxonomy": "services",
+ "title": "DST Placement Coordination",
+ "name": "DST Placement Coordination",
+ "metaTitle": "DST Placement Coordination in Jacksonville, FL",
+ "metaDescription": "Coordinating Delaware Statutory Trust allocations as replacement property for Jacksonville exchangers who want passive ownership.",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>A Delaware Statutory Trust interest qualifies as like-kind replacement property for a 1031 exchange, which lets a Jacksonville investor exit direct ownership and active management entirely while still deferring gain. The trust holds title to the underlying real estate; the exchanger buys a fractional beneficial interest sized to whatever exchange amount needs to be placed. We coordinate the sponsor paperwork, funding timeline, and identification language as its own submittal track, separate from any direct-property candidates on the same list.</p>"
+  },
+  {
+   "heading": "Why a Jacksonville Investor Considers a DST Allocation",
+   "html": "<p>The most common reason we see is an exchanger stepping away from active property management, often after years of running a Jacksonville industrial or multifamily asset directly, without wanting to trigger tax on the accumulated gain. A DST allocation replaces hands-on landlord responsibilities with a passive ownership interest, which fits an investor relocating out of state or simply looking to simplify a portfolio that has grown harder to manage across downtown, Southbank, and outlying submarkets at once.</p><p>It also works well as a fractional backup candidate on an identification list built under the 200-percent rule, since a DST allocation can absorb whatever exchange amount is left over if a direct property candidate near JAXPORT or the beaches falls through in underwriting.</p>"
+  },
+  {
+   "heading": "The Sponsor Submittal Package",
+   "html": "<ul><li>Private placement memorandum and trust agreement from the DST sponsor</li><li>Confirmation of minimum investment amount against the exchanger's available exchange proceeds</li><li>Debt structure review, since some DST offerings carry non-recourse financing already in place</li><li>Subscription documents routed through the exchanger's registered representative or advisor</li><li>Funding instructions coordinated with the qualified intermediary before day 180</li></ul>"
+  },
+  {
+   "heading": "Matching Debt Levels to Avoid Boot",
+   "html": "<p>A DST offering typically comes with a fixed debt-to-equity structure already built into the trust, which means the exchanger has less ability to negotiate loan terms than on a direct purchase. We compare the DST's built-in leverage against the debt that was relieved on the relinquished Jacksonville property, since a mismatch can create mortgage boot even when the equity amount placed into the trust is otherwise sufficient.</p><p>This comparison matters most for an exchanger coming out of a heavily leveraged Jacksonville property, such as a financed industrial building near JAXPORT, where the debt relieved at closing can exceed what a given DST offering's structure replaces. In that scenario we look for a sponsor offering with a comparable leverage ratio, or a combined placement across more than one DST, rather than accepting a single offering that leaves a debt-relief gap unaddressed.</p>"
+  },
+  {
+   "heading": "Where DST Coordination Differs From a Direct Purchase",
+   "html": "<p>There is no title search, no lender underwriting on the exchanger's own credit, and no closing attorney negotiating terms line by line, since the sponsor has already structured the offering before it reaches the exchanger. What replaces that work is a documentation review: confirming the trust's property description matches what is on the identification notice, verifying the sponsor's track record disclosures, and making sure funding instructions reach the intermediary in the sponsor's required format and timeline.</p><p>That shift in workload also changes the type of questions worth asking before funding. Instead of negotiating purchase price or repair credits, the relevant questions center on sponsor fee structure, projected hold period, and how distributions are expected to be handled once the underlying Jacksonville-area or out-of-market property in the trust is stabilized.</p>"
+  },
+  {
+   "heading": "Sizing a Partial Allocation Against a Larger Exchange",
+   "html": "<p>Not every Jacksonville exchanger places the full exchange amount into a DST. A common structure pairs a direct replacement property, such as a beaches-area retail parcel or a Westside industrial building, with a smaller DST allocation sized to whatever proceeds remain after the direct purchase. We size that allocation against the sponsor's minimum investment threshold early, since a DST offering that requires more than the leftover proceeds will not work as a partial fulfillment candidate.</p><p>We also confirm the timing of the direct-property closing against the DST subscription deadline, since sponsors typically set their own cutoff dates for accepting new capital into a specific offering, and a direct purchase that closes late in the 180-day window can leave too little time to complete a DST subscription behind it.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Does a DST allocation qualify as like-kind property under a 1031 exchange?",
+   "a": "Yes, a properly structured Delaware Statutory Trust interest is treated as a direct interest in real property for exchange purposes and qualifies as like-kind replacement property."
+  },
+  {
+   "q": "Can a Jacksonville investor sell a DST interest before the trust's holding period ends?",
+   "a": "DST interests are generally illiquid until the sponsor sells the underlying property, so investors should plan for a multi-year holding period rather than expecting an early exit."
+  },
+  {
+   "q": "Does a DST allocation avoid mortgage boot automatically?",
+   "a": "Not automatically; the trust's built-in debt structure has to be compared against the debt relieved on the relinquished property, since a mismatch in either direction can still create boot."
+  },
+  {
+   "q": "Can a DST allocation be combined with a direct property purchase in the same exchange?",
+   "a": "Yes, a common structure uses a direct replacement property for most of the exchange value and a smaller DST allocation to absorb the remaining proceeds."
+  },
+  {
+   "q": "Who reviews the DST sponsor's offering documents before funding?",
+   "a": "We coordinate the review alongside the exchanger's registered representative or advisor, who is typically the party licensed to evaluate and recommend the specific securities offering, including the fee structure and projected hold period disclosed in the offering memorandum."
+  }
+ ],
+ "internalLinks": [],
+ "wordCount": 854
+}

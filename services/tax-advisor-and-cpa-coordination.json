@@ -1,0 +1,66 @@
+{
+ "slug": "tax-advisor-and-cpa-coordination",
+ "taxonomy": "services",
+ "title": "Tax Advisor and CPA Coordination",
+ "name": "Tax Advisor and CPA Coordination",
+ "metaTitle": "Tax Advisor and CPA Coordination in Jacksonville, FL",
+ "metaDescription": "Tax advisor and CPA coordination for Jacksonville 1031 exchanges, routing basis, boot, and Form 8824 questions to the investor's own advisor on schedule.",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>No procurement package for a Jacksonville exchange closes cleanly without the investor's own tax advisor or CPA reviewing it at the right points, rather than only at year-end filing. Coordination here means routing the specific documents and questions the advisor needs, on the schedule the exchange itself is running on, rather than handing over a stack of paperwork after closing and hoping it reconciles.</p>"
+  },
+  {
+   "heading": "What Gets Routed to the Advisor, and When",
+   "html": "<p>The investor's tax advisor needs the relinquished property's basis and depreciation schedule before the exchange begins, not after, since that history determines the carryover basis on the replacement property and flags any potential boot exposure if the replacement purchase price or financing does not fully match the relinquished sale. Sending that information early gives the advisor time to flag a boot concern while there is still room to adjust the replacement search, rather than after a specific property is already under contract.</p>"
+  },
+  {
+   "heading": "Coordinating Basis and Boot Questions Before an Offer",
+   "html": "<p>Boot can arise from cash received, debt relief that is not replaced with equivalent new debt, or non-like-kind property received as part of the transaction, and each of those triggers a different tax consequence that the advisor, not the sourcing team, is positioned to evaluate. Confirming with the advisor early whether a specific candidate property's price and financing structure avoids boot, rather than assuming it does because the exchange otherwise looks clean, is a required check before the offer is submitted.</p>"
+  },
+  {
+   "heading": "The Handoff Package for Every Advisor Conversation",
+   "html": "<p>The same set of documents goes to the investor's advisor at each stage of the exchange, so the advisor is reviewing a complete file rather than fragments delivered piecemeal.</p><ul><li>Relinquished property basis and depreciation schedule</li><li>Sale contract and closing statement from the relinquished property</li><li>Exchange agreement and assignment documents from the qualified intermediary</li><li>Written identification notice and candidate property details</li><li>Replacement property purchase contract once a candidate is under contract</li></ul>"
+  },
+  {
+   "heading": "No State Income Tax Does Not Remove Federal Questions",
+   "html": "<p>Florida's lack of a state income tax sometimes leads investors to assume a Jacksonville exchange carries fewer tax coordination questions than one in a state with its own income tax, but the federal exchange rules, basis calculations, and Form 8824 reporting apply the same way regardless of state tax treatment. That assumption is worth correcting with the advisor directly rather than left unaddressed.</p>"
+  },
+  {
+   "heading": "Preparing the File for Form 8824",
+   "html": "<p>Once the replacement property closes, the advisor needs the complete closing file to prepare Form 8824 for the year the exchange occurred, including both closing statements, the exchange agreement, and the final identification notice. Delivering that package to the advisor promptly after closing, rather than waiting until the filing deadline approaches, gives adequate time to prepare the return accurately.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "When should a tax advisor first be brought into a Jacksonville exchange?",
+   "a": "The advisor should review the relinquished property's basis and depreciation history before the exchange begins, not after a replacement property is already under contract, since that history affects boot exposure and carryover basis calculations. Bringing the advisor in early leaves room to adjust the replacement search if a concern surfaces."
+  },
+  {
+   "q": "What is boot, and who determines whether a specific property triggers it?",
+   "a": "Boot is any cash, debt relief, or non-like-kind property an investor receives as part of the exchange, which can create taxable gain even within an otherwise valid exchange. Determining whether a specific replacement property and its financing structure avoids boot is a calculation for the investor's tax advisor, not the sourcing team."
+  },
+  {
+   "q": "Does Florida's lack of a state income tax simplify the coordination with a tax advisor?",
+   "a": "It removes one layer of state-level tax questions, but the federal exchange rules, basis carryover, and Form 8824 reporting requirements apply the same way regardless of state income tax treatment. Coordination with the advisor on those federal questions still matters just as much."
+  },
+  {
+   "q": "What documents does a CPA need to prepare Form 8824?",
+   "a": "The CPA needs both closing statements, the exchange agreement and assignment documents from the qualified intermediary, and the written identification notice submitted during the exchange. Assembling that package promptly after closing, rather than at tax season, gives the advisor time to prepare an accurate filing."
+  },
+  {
+   "q": "Can a sourcing team give tax advice directly to the investor?",
+   "a": "No, sourcing and coordination work describes the process and routes documents to the investor's own advisor, but specific tax advice and boot calculations should come from the investor's CPA or tax attorney. That separation keeps responsibility for tax outcomes with the professional licensed to give that advice."
+  },
+  {
+   "q": "How does depreciation recapture factor into the advisor conversation on a Jacksonville exchange?",
+   "a": "Depreciation recapture is deferred along with the rest of the gain in a properly structured exchange, but the advisor still needs the relinquished property's full depreciation schedule to calculate the carryover basis correctly on the replacement property. Leaving that schedule incomplete makes it harder for the advisor to confirm the exchange was reported correctly on Form 8824."
+  },
+  {
+   "q": "Should the advisor be involved before or after a specific replacement property is identified?",
+   "a": "Ideally before, so the advisor can flag basis or boot concerns while the identification list can still be adjusted, rather than after a property is already under contract and options are more limited. Involving the advisor at the identification stage, and again at closing, gives the exchange more room to correct course if a concern comes up."
+  }
+ ],
+ "internalLinks": [],
+ "wordCount": 857
+}

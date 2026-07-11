@@ -1,0 +1,66 @@
+{
+ "slug": "three-property-rule-strategy",
+ "taxonomy": "services",
+ "title": "Three-Property Rule Strategy",
+ "name": "Three-Property Rule Strategy",
+ "metaTitle": "Three-Property Rule Strategy in Jacksonville, FL",
+ "metaDescription": "Three-property rule strategy for Jacksonville 1031 exchanges, scoping a tight three-candidate submittal instead of a broad, harder-to-manage identification list.",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>The three-property rule sets the outer boundary on the simplest version of a replacement property submittal: up to three candidates named on the identification notice, regardless of their combined value. For an investor who already knows roughly what they want in a Jacksonville replacement property, that boundary keeps the search tight rather than sprawling into a longer list that takes more time to manage than it is worth.</p>"
+  },
+  {
+   "heading": "When Three Candidates Is Enough",
+   "html": "<p>The three-property rule fits best when the investor has a clear scope already defined, such as a single-tenant net lease pad along the I-95 corridor or a mid-size multifamily property in a specific submarket, and genuinely expects one of a small number of realistic candidates to close. Trying to force a broader search into three slots when the investor is still deciding between asset classes generally produces a weaker list than taking the 200 percent rule's wider allowance instead.</p>"
+  },
+  {
+   "heading": "Building the Three-Candidate List With a Backup in Mind",
+   "html": "<p>Because only three properties can be named under this rule, at least one candidate on the list should function as a realistic backup rather than all three being a stretch acquisition the investor is unlikely to actually close. A list of three properties the investor genuinely could close, ranked by preference, holds up better under deadline pressure than three aspirational properties named because the rule allows exactly that many.</p>"
+  },
+  {
+   "heading": "The Submittal Package Behind Each of the Three Candidates",
+   "html": "<p>Each of the three named candidates carries the same documentation standard before the notice is finalized, since the identification itself has no room for a weak entry.</p><ul><li>Full legal description and parcel identification from the county record</li><li>Preliminary financing conversation completed with a lender</li><li>Seller's willingness to hold the property through a reasonable closing window confirmed</li><li>Title and survey ordered ahead of the identification deadline</li><li>Ranking among the three candidates documented for the investor's reference</li></ul>"
+  },
+  {
+   "heading": "Comparing Against the 200 Percent Rule Before Committing",
+   "html": "<p>An investor uncertain whether three candidates covers enough ground should compare the three-property rule against the 200 percent rule before finalizing the identification notice, since the 200 percent rule allows more candidates as long as their combined value stays within twice the relinquished sale price. That comparison, made before day 45 rather than as the deadline approaches, avoids committing to a narrower list than the situation actually calls for.</p>"
+  },
+  {
+   "heading": "Moving From Three Candidates to a Closed File",
+   "html": "<p>Once one of the three identified properties is selected, the file moves into standard closing coordination: title confirmed against the identified legal description, the qualified intermediary notified of the specific parcel, and the purchase contract reviewed for assignment language. Keeping that closing sequence consistent, regardless of whether the identification used the three-property rule or the 200 percent rule, is what carries the exchange through to a completed closing inside the 180-day period.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Does the three-property rule limit the value of the properties an investor can identify?",
+   "a": "No, the three-property rule places no cap on combined value, only on the number of properties named, which is what distinguishes it from the 200 percent rule. An investor can name three high-value properties under this rule as long as no more than three are listed."
+  },
+  {
+   "q": "When does the three-property rule work better than the 200 percent rule?",
+   "a": "It works best when the investor already has a narrow, well-defined target and a short list of realistic candidates, since naming more properties than genuinely needed under the 200 percent rule adds tracking overhead without adding real optionality. A broader or less certain search generally benefits more from the 200 percent rule's wider allowance."
+  },
+  {
+   "q": "Should all three identified properties be equally likely to close?",
+   "a": "Not necessarily, but at least one of the three should function as a realistic backup rather than treating all three as equally aspirational, since only properties actually acquired within 180 days count toward a completed exchange. A ranked list with a genuine fallback holds up better under deadline pressure."
+  },
+  {
+   "q": "Can the three named properties be changed before day 45?",
+   "a": "Yes, the identification notice can be revised any number of times up until day 45 closes, so a candidate that falls out of contention can be swapped for another as long as the revision reaches the qualified intermediary before the deadline. After day 45, the three properties named at that point are fixed."
+  },
+  {
+   "q": "What happens if none of the three identified properties can be acquired by day 180?",
+   "a": "If all three fall through before day 180, the exchange fails and the transaction is treated as a taxable sale rather than a completed exchange, which is why the three-candidate list should include at least one property the investor is confident can actually close. That risk is the main reason to weigh the three-property rule against the 200 percent rule before committing."
+  },
+  {
+   "q": "Does the three-property rule require the properties to be similar in type or location?",
+   "a": "No, the rule places no requirement that the three properties share an asset class or submarket, so an investor could name a net lease pad, a small multifamily property, and a retail strip on the same list. In practice a focused list within one asset class is usually easier to manage than a deliberately mixed one."
+  },
+  {
+   "q": "Is it possible to switch from the three-property rule to the 200 percent rule after the identification is already submitted?",
+   "a": "Once the identification notice is filed, its terms apply as written, so switching rules requires filing a revised notice before day 45 rather than reinterpreting the original submission. Deciding which rule to use before the first notice is drafted avoids that extra revision step."
+  }
+ ],
+ "internalLinks": [],
+ "wordCount": 891
+}

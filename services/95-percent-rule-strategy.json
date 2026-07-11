@@ -1,0 +1,58 @@
+{
+ "slug": "95-percent-rule-strategy",
+ "taxonomy": "services",
+ "title": "95 Percent Rule Strategy",
+ "name": "95 Percent Rule Strategy",
+ "metaTitle": "95 Percent Rule Strategy in Jacksonville, FL",
+ "metaDescription": "Using the 95-percent acquisition rule to identify an unlimited Jacksonville candidate list when the value cap does not fit.",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>The 95-percent rule is the least-used of the three identification rules, and for good reason: it lets an exchanger name an unlimited number of Jacksonville replacement candidates with no count limit and no value cap, but only if the exchanger actually closes on at least 95 percent of the total fair market value of everything identified. Fall short of that acquisition threshold by even a small margin and the entire identification can be disqualified, which is a harder outcome to manage than either of the other two rules.</p>"
+  },
+  {
+   "heading": "When This Rule Actually Gets Used",
+   "html": "<p>We reach for the 95-percent rule on a narrow set of Jacksonville exchanges, typically when an investor is confident enough in closing on nearly everything they identify that the count and value limits of the other two rules feel unnecessarily restrictive. A large industrial portfolio sale near JAXPORT, where the exchanger already has signed contracts on most of the intended replacement properties before day 45, is one of the few scenarios where naming a longer list without a value cap makes sense instead of exposing risk.</p><p>Outside of that kind of near-certain acquisition scenario, the 95-percent rule tends to create more downside than it solves, since a single financing delay on one candidate can drop the acquired percentage below the threshold and disqualify a list that otherwise would have worked fine under the 200-percent rule.</p>"
+  },
+  {
+   "heading": "Calculating the 95-Percent Threshold",
+   "html": "<ul><li>Sum the fair market value of every property named on the identification notice</li><li>Multiply that total by 95 percent to set the minimum acquisition value</li><li>Track actual closings against that threshold as each candidate resolves</li><li>Flag the list as soon as a financing or diligence failure puts the threshold at risk</li><li>Confirm the final acquired total with the qualified intermediary before day 180</li></ul>"
+  },
+  {
+   "heading": "Why We Rarely Recommend This Rule for a Jacksonville List",
+   "html": "<p>The 95-percent rule removes the safety valve that the other two rules provide. Under the three-property or 200-percent rule, an exchanger can drop a candidate that falls through in diligence and still complete the exchange with whatever remains. Under the 95-percent rule, dropping even one candidate from a long list can push the acquired percentage below the threshold and disqualify everything, including properties that closed without issue near downtown or the Southbank.</p><p>That all-or-nothing exposure is why we walk through the downside scenario in detail before recommending this rule to any Jacksonville exchanger, regardless of how confident the acquisition pipeline looks at the time the identification notice is drafted. A financing delay on a single candidate, even a minor one tied to a Naval Station Mayport-adjacent tenant's lease review, is enough to threaten the entire list if the acquired value drops below the 95-percent line.</p>"
+  },
+  {
+   "heading": "Structuring a List That Can Actually Clear the Threshold",
+   "html": "<p>When a Jacksonville exchanger does use this rule, we build the list around candidates with financing already in principle and title work already underway, rather than speculative options still in early negotiation. A list built from a beaches-area retail parcel with a signed contract, an industrial building near I-95 and I-10 already through initial underwriting, and a smaller backup property is far more likely to clear 95 percent than a list padded with untested candidates added purely for optionality.</p>"
+  },
+  {
+   "heading": "Coordinating Closings Against a Moving Threshold",
+   "html": "<p>Because the 95-percent threshold is measured against the total identified value rather than a fixed count, every closing that falls through changes the math for every candidate still pending. We track the running acquired percentage in real time as each Jacksonville property resolves, rather than waiting until day 180 to add everything up, so there is still time to accelerate a marginal closing if the threshold is at risk of not being met.</p><p>On a list that mixes an industrial building near I-95 and I-10 with a downtown office property and a beaches-area retail parcel, that tracking has to account for each closing independently, since a delay on one asset class does not necessarily signal trouble on another. We keep a single running log across all three rather than three separate files, so the exchanger has one place to see how close the total sits to the 95-percent line at any point in the window.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "How is the 95-percent rule different from the 200-percent rule?",
+   "a": "The 200-percent rule caps the identified list's value but has no acquisition requirement beyond the standard exchange rules; the 95-percent rule has no value cap at all but requires closing on 95 percent of what was identified."
+  },
+  {
+   "q": "What happens if a Jacksonville exchanger falls just short of 95 percent?",
+   "a": "Falling short of the threshold, even narrowly, can disqualify the entire identification, which is why this rule carries more all-or-nothing risk than the three-property or 200-percent alternatives."
+  },
+  {
+   "q": "Can an exchanger switch from the 95-percent rule to the 200-percent rule after identifying?",
+   "a": "No, the applicable rule is set by what was actually filed with the qualified intermediary during the 45-day window and cannot be changed retroactively based on how closings later turn out."
+  },
+  {
+   "q": "Is the 95-percent rule ever combined with the three-property rule on the same list?",
+   "a": "No, an exchanger applies one identification rule to the full list; mixing rules on a single identification notice is not how the framework is structured."
+  },
+  {
+   "q": "Why would a Jacksonville investor choose this rule over the safer 200-percent option?",
+   "a": "Almost exclusively when the investor already has signed contracts or near-certain closings on most of the candidates and wants to name additional backups without being constrained by the value cap."
+  }
+ ],
+ "internalLinks": [],
+ "wordCount": 878
+}

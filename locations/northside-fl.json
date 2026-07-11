@@ -1,0 +1,58 @@
+{
+ "slug": "northside-fl",
+ "taxonomy": "locations",
+ "title": "Northside",
+ "name": "Northside",
+ "metaTitle": "Northside Jacksonville 1031 Exchange Services in Jacksonville, FL",
+ "metaDescription": "Northside 1031 exchange coordination for port- and airport-adjacent industrial replacement property near JAXPORT and Jacksonville International.",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>Northside holds two of Jacksonville's largest freight generators, the JAXPORT marine terminals and Jacksonville International Airport, and its replacement-property scope centers on the industrial and distribution space that serves both. A submittal package here should specify whether a property's demand logic is port-driven or airport-driven, since the two corridors do not always overlap.</p><p>A specification review for either corridor should start with the tenant's actual freight mode, since a building marketed as port-adjacent but used exclusively for truck-based distribution should be underwritten on truck-access fundamentals rather than assumed marine-terminal proximity value.</p>"
+  },
+  {
+   "heading": "Port and Airport-Adjacent Industrial Scope",
+   "html": "<p>The Blount Island and Dames Point marine terminals anchor a corridor of container-adjacent distribution and logistics buildings along the river, while Airport Road and the I-95 interchange near Jacksonville International Airport support a separate cluster of air-cargo and general distribution space. Both corridors draw on the same regional freight-forwarding and third-party-logistics tenant base, but lease terms and building specifications differ between them.</p><p>Residential pockets in New Berlin and Oceanway sit adjacent to both corridors, and while these areas remain primarily residential, a small amount of neighborhood-serving retail has developed to support the workforce commuting into the surrounding industrial base.</p>"
+  },
+  {
+   "heading": "Property Types",
+   "html": "<p>Northside's qualifying inventory generally sorts into the following categories:</p><ul><li>container-adjacent distribution buildings near the marine terminals</li><li>air-cargo and freight-forwarding buildings near the airport</li><li>bulk-storage and cross-dock facilities along Airport Road</li><li>truck terminal parcels near the I-95/I-295 North interchange</li><li>build-to-suit logistics land along the port access corridor</li></ul><p>A buyer comparing these categories should weigh tenant concentration risk carefully, since several of the larger container-adjacent buildings in this corridor are leased to a single logistics operator rather than a diversified tenant roster.</p>"
+  },
+  {
+   "heading": "JAXPORT Terminal Corridor Specifications",
+   "html": "<p>Buildings serving the marine terminal corridor should be reviewed for rail-served status separately from truck-only access, since several parcels along this stretch carry rail spur rights that materially affect tenant demand and are not always obvious from a standard site plan. Wetlands and flood-zone mapping along the river side of this corridor should be checked against current permits before a parcel is added to an identification list.</p><p>Security and access-control requirements tied to terminal-adjacent operations should also be confirmed, since some tenants near the marine terminals operate under federal maritime security regulations that add fencing, lighting, and credentialing requirements beyond a standard industrial lease.</p>"
+  },
+  {
+   "heading": "Airport Road and I-95 Access Diligence",
+   "html": "<p>Clear height and dock-door ratio on Airport Road buildings should be compared against current air-cargo tenant standards rather than the building's original specification, since several buildings in this corridor were built for general distribution and later retrofitted for time-sensitive freight-forwarding use. Truck routing to both I-95 and the I-295 North Beltway should be verified for any tenant whose operation depends on regional rather than local delivery.</p><p>Any building fronting Airport Road within the airport's noise or approach-path zoning overlay should be checked for use restrictions before it is identified, since those overlays can limit certain occupancy types even where the base zoning would otherwise permit them.</p>"
+  },
+  {
+   "heading": "Sequencing Around Marine Terminal Lease Cycles",
+   "html": "<p>Freight-forwarding and third-party-logistics tenants near the marine terminals and the airport frequently sign shorter lease terms than manufacturing tenants elsewhere in the metro, so a rent roll review should model rollover risk into the hold period rather than assume renewal is automatic. The broader I-295 North industrial base functions as a natural backup identification for either the port or airport corridor, since it draws on the same regional tenant pool.</p><p>Coordination with a qualified intermediary and a lender familiar with port- and airport-adjacent collateral should begin before the 45-day window opens, since specialized security and access requirements on some of these properties can extend a standard closing timeline.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Is Northside industrial demand driven more by the port or the airport?",
+   "a": "Both, but they function as separate corridors with different tenant profiles; a submittal package should specify which driver applies to a given property rather than treating Northside as a single undifferentiated demand pool, since lease structures and tenant credit norms are not identical between the two, and New Berlin and Oceanway provide a nearby labor pool for either corridor."
+  },
+  {
+   "q": "Why does rail-served status matter for marine terminal corridor buildings?",
+   "a": "Several parcels near the port carry rail spur rights that materially affect tenant demand and lease pricing, and that status is not always apparent from a standard site plan, so it should be confirmed directly."
+  },
+  {
+   "q": "What environmental diligence applies near the JAXPORT terminals?",
+   "a": "Wetlands and flood-zone mapping along the river side of the corridor should be checked against current permits before a parcel is added to an identification list, since several parcels in this stretch have partial wetlands coverage that limits the buildable footprint."
+  },
+  {
+   "q": "How stable are freight-forwarding leases near the airport?",
+   "a": "Generally shorter-term than manufacturing leases elsewhere in the metro, so rollover risk should be modeled into the hold period rather than assumed away when reviewing the rent roll, and tenant renewal history should be requested for at least the two prior lease terms where available."
+  },
+  {
+   "q": "What backup submarket pairs with Northside?",
+   "a": "The broader I-295 North industrial base draws on the same regional freight-forwarding and logistics tenant pool and functions as a natural backup identification for either the port or airport corridor, which keeps a buyer's options open if a preferred marine terminal or airport-adjacent building is withdrawn from the market."
+  }
+ ],
+ "internalLinks": [],
+ "wordCount": 861
+}

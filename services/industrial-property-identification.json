@@ -1,0 +1,58 @@
+{
+ "slug": "industrial-property-identification",
+ "taxonomy": "services",
+ "title": "Industrial Property Identification",
+ "name": "Industrial Property Identification",
+ "metaTitle": "Industrial Property Identification in Jacksonville, FL",
+ "metaDescription": "Sourcing warehouse and distribution replacement property candidates along Jacksonville's port and highway corridors for exchange.",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>Jacksonville's industrial base runs on JAXPORT and the highway network feeding it, with warehouse and distribution product concentrated along the I-95 and I-10 corridors and out toward the Westside and Northside submarkets near rail and terminal access. Identifying a candidate here means understanding clear-height, dock-door count, and truck-court depth against a specific tenant profile rather than comparing square footage across listings alone.</p>"
+  },
+  {
+   "heading": "Reading the Corridor Before Naming a Candidate",
+   "html": "<p>A building near JAXPORT's terminals serves a different tenant base than one further inland along I-10 toward the Westside, even if both are classified as industrial on a broker's flyer. Port-adjacent product tends to draw import and distribution tenants who need proximity to container drayage, while inland I-95 corridor buildings pull more regional distribution and light manufacturing users less tied to the port schedule itself. We confirm which profile a candidate actually fits before it goes on the identification list, rather than relying on the zoning classification alone.</p><p>Northside parcels near the rail-served industrial parks carry a third profile again, drawing tenants who specifically need rail-served capacity that neither the port corridor nor the inland highway sites can offer.</p>"
+  },
+  {
+   "heading": "The Physical Specification Checklist",
+   "html": "<ul><li>Clear height and column spacing measured against the target tenant's racking plan</li><li>Dock-door count and truck-court depth for the intended trailer traffic</li><li>Power capacity, particularly for cold storage or light manufacturing use</li><li>Rail-served access if the tenant profile requires it</li><li>Zoning confirmation against Duval County's current industrial use classifications</li></ul>"
+  },
+  {
+   "heading": "Where Industrial Candidates Fall Apart in Diligence",
+   "html": "<p>The recurring issue on Jacksonville industrial candidates is a building that looks correctly sized on paper but has a truck court too shallow for the trailer count a modern distribution tenant needs, or clear height a few feet short of what current racking standards require. We confirm these physical specifications against the actual target tenant profile before a candidate is added to the identification list, since a mismatch discovered during due diligence after day 45 leaves no room to substitute a different property.</p><p>Roof condition and structural age are a second common gap, particularly on older Northside buildings originally built for a different generation of industrial use. A roof nearing the end of its usable life can carry a significant near-term capital cost that changes the effective return on the property, and we flag that against the identification list before day 45 rather than after a candidate is already under contract.</p>"
+  },
+  {
+   "heading": "Matching Debt Structure to the Asset's Income Profile",
+   "html": "<p>Lenders underwrite JAXPORT-adjacent industrial product differently than they underwrite a smaller inland flex building, often applying different loan-to-value assumptions based on tenant concentration and lease term remaining. We flag those underwriting differences early in the identification process so financing terms do not become a surprise once a specific candidate is already under contract.</p><p>A single-tenant building with a long remaining lease term typically underwrites more favorably than a multi-tenant flex property with several leases rolling within a few years, which changes how much equity a Jacksonville exchanger should expect to bring to a given candidate.</p>"
+  },
+  {
+   "heading": "Sequencing the Candidate List Against the 45-Day Window",
+   "html": "<p>Because industrial due diligence, environmental review, roof and structural inspection, and title work on larger parcels, takes longer than a smaller asset class, we start physical inspections on Jacksonville industrial candidates as early as possible within the 45-day window rather than waiting until a single frontrunner emerges. That gives the identification list real backups instead of one candidate the exchanger has not actually walked yet.</p><p>For a candidate near JAXPORT with existing tenant improvements installed for a prior occupant's operation, we also schedule a walkthrough with the target tenant's operations contact where possible, since a floor plan that worked for the previous user does not always suit the next one without modification, and that gap is easier to catch during the identification window than after closing.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "What clear height do most current Jacksonville industrial tenants require?",
+   "a": "Requirements vary by tenant and racking plan, which is why we confirm clear height against the specific target tenant profile rather than assuming a single standard applies across every candidate on the list."
+  },
+  {
+   "q": "Does proximity to JAXPORT always command a premium over inland industrial product?",
+   "a": "Not always; it depends on the tenant's need for port-adjacent access versus a tenant that primarily serves regional distribution along I-95 or I-10 and does not benefit meaningfully from terminal proximity at all."
+  },
+  {
+   "q": "Can an industrial candidate be identified before an environmental assessment is complete?",
+   "a": "Yes, it can be named on the identification list before diligence finishes, but we recommend starting environmental review as early as possible so a problem does not surface after the 45-day window closes and a substitution is no longer possible."
+  },
+  {
+   "q": "Do rail-served properties in the Northside area require different underwriting?",
+   "a": "Often yes, since lenders may factor in the specialized tenant pool that rail access serves, which can affect loan terms compared with a standard truck-served building, particularly on tenant concentration and lease term."
+  },
+  {
+   "q": "How many industrial candidates should be on a Jacksonville identification list?",
+   "a": "It depends on the identification rule used and how far along diligence is on each candidate; we generally recommend at least one backup beyond the frontrunner given how physical specifications can eliminate a property late in the process, whether that is a truck-court shortfall or a roof nearing the end of its useful life."
+  }
+ ],
+ "internalLinks": [],
+ "wordCount": 850
+}

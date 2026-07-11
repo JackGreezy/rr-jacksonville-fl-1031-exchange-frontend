@@ -1,0 +1,58 @@
+{
+ "slug": "boot-calculation-support",
+ "taxonomy": "services",
+ "title": "Boot Calculation Support",
+ "name": "Boot Calculation Support",
+ "metaTitle": "Boot Calculation Support in Jacksonville, FL",
+ "metaDescription": "Building the boot worksheet that flags taxable cash and debt-relief exposure on a Jacksonville replacement property closing.",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>Boot is any value an exchanger receives in a 1031 transaction that is not like-kind real property, and it is taxable to the extent of gain even inside an otherwise successful exchange. Cash boot shows up as leftover exchange funds not reinvested; mortgage boot shows up as debt relief on the relinquished property that is not matched by new debt on the replacement side. We build the boot worksheet early, before a Jacksonville closing is scheduled, rather than discovering exposure at the settlement table.</p>"
+  },
+  {
+   "heading": "Where Cash Boot Shows Up on a Jacksonville Closing Statement",
+   "html": "<p>The most common source of cash boot we see on Jacksonville exchanges is a replacement property purchase priced below the relinquished property's net sale proceeds, leaving unspent exchange funds sitting with the qualified intermediary at the end of the 180-day period. It also shows up when closing costs get paid from exchange funds that are not considered qualified transaction costs, or when a seller credit on a beaches-area or downtown property reduces the purchase price after the exchange funds were already committed.</p><p>We reconcile the settlement statement against the relinquished-property net proceeds line by line before closing, rather than after, so any leftover balance can be redirected toward closing costs or a second replacement property while there is still time to act on it.</p>"
+  },
+  {
+   "heading": "The Debt-Relief Comparison Worksheet",
+   "html": "<ul><li>Confirm the outstanding mortgage balance paid off on the Jacksonville relinquished property</li><li>Confirm the new debt amount, if any, on the replacement property acquisition</li><li>Flag any shortfall where relinquished debt exceeds replacement debt as potential mortgage boot</li><li>Check whether additional cash was contributed to offset a debt-relief shortfall</li><li>Route the final worksheet to the exchanger's tax advisor before Form 8824 is prepared</li></ul>"
+  },
+  {
+   "heading": "Netting Cash Boot Against Mortgage Boot",
+   "html": "<p>Cash boot received and mortgage boot relief do not simply add together; under the netting rules, cash paid can offset debt relief received, and vice versa, in specific circumstances. A Jacksonville investor who pays down more mortgage debt on the replacement property than was relieved on the relinquished side can offset some cash boot exposure, but the reverse does not always work the same way. We flag these interactions on the worksheet rather than treating cash and debt as two unrelated columns.</p><p>This netting question comes up most often when an investor is trading out of a fully paid-off Jacksonville property into a leveraged replacement, since there is no debt relief on the relinquished side to offset against new debt assumed on the replacement side, which changes how the cash contribution needs to be sized to fully defer gain.</p>"
+  },
+  {
+   "heading": "Coordinating the Worksheet With Lender Requirements",
+   "html": "<p>On a leveraged replacement property near I-95 and I-10 or in the Northside industrial corridor, the lender's required loan-to-value ratio can force a debt amount that is lower than what would fully avoid mortgage boot. We flag that tension to the exchanger's tax advisor as soon as loan terms come back from the lender, rather than after the closing statement is already finalized and there is no room left to adjust the equity contribution.</p>"
+  },
+  {
+   "heading": "Documenting Boot Exposure for the Tax Return",
+   "html": "<p>An unavoidable amount of boot does not disqualify the rest of the exchange; it simply becomes taxable in the year of the transaction. We keep a clean paper trail showing exactly how much boot was calculated, where it originated, and how the netting rules were applied, so the exchanger's tax advisor has a documented worksheet to work from rather than reconstructing the numbers after the fact from two separate closing statements.</p><p>That paper trail matters most on exchanges involving a DST allocation alongside a direct Jacksonville property, since the boot calculation there has to account for two separate closing mechanisms feeding into one combined figure, and a tax advisor reviewing the file months later needs to see how each piece was derived rather than a single net number with no supporting detail behind it. We deliver the worksheet alongside both closing statements rather than as a standalone summary, so every figure on it can be traced back to its source document without additional back and forth.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Does receiving any boot disqualify a Jacksonville exchange entirely?",
+   "a": "No, boot does not disqualify the exchange; it simply makes the boot amount taxable as gain in the year received, while the rest of the exchange still defers tax on the remaining gain."
+  },
+  {
+   "q": "Can a Jacksonville exchanger avoid mortgage boot by adding cash instead?",
+   "a": "In many cases yes, contributing additional cash to the replacement property purchase can offset a debt-relief shortfall, though the specific netting treatment should be confirmed with a tax advisor."
+  },
+  {
+   "q": "What happens to leftover exchange funds still held by the intermediary after day 180?",
+   "a": "Any funds not used to acquire replacement property are returned to the exchanger as cash boot and become taxable in that year."
+  },
+  {
+   "q": "Do closing costs count as boot if paid from exchange funds?",
+   "a": "Certain transaction costs, such as broker commissions and standard closing fees, are typically treated as qualified costs and do not create boot, but costs outside that category can, which is why we review the settlement statement line by line."
+  },
+  {
+   "q": "Who calculates the final boot figure for the tax return?",
+   "a": "We prepare the worksheet showing the calculation and mechanics, but the exchanger's tax advisor or CPA makes the final determination and reports the figure on the tax return."
+  }
+ ],
+ "internalLinks": [],
+ "wordCount": 855
+}

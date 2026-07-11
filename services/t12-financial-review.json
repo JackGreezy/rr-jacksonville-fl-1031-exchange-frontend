@@ -1,0 +1,66 @@
+{
+ "slug": "t12-financial-review",
+ "taxonomy": "services",
+ "title": "T12 Financial Review",
+ "name": "T12 Financial Review",
+ "metaTitle": "T12 Financial Review in Jacksonville, FL",
+ "metaDescription": "Trailing twelve-month financial review for Jacksonville replacement property, checked line by line against leases and expense history before an offer.",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>A trailing twelve-month statement, the T12, is the financial submittal every Jacksonville replacement property candidate has to pass before an offer goes forward. It shows income and expenses over the prior year, and reading it against the rent roll and expense invoices behind it, rather than trusting the seller's summary total, is what confirms the number an investor is actually underwriting.</p>"
+  },
+  {
+   "heading": "Matching the T12 Against the Rent Roll",
+   "html": "<p>The income lines on a T12 should reconcile against the current rent roll month by month, since a gap between the two often means either a rent increase that has not yet been reflected in trailing collections or a concession that has not yet rolled off. Reconciling those two documents against each other, rather than reviewing them separately, is where discrepancies surface before they become a closing-week problem.</p>"
+  },
+  {
+   "heading": "Reading Expense Lines Against Actual Invoices",
+   "html": "<p>Expense categories on a T12, particularly property tax, insurance, and repairs and maintenance, deserve a check against actual invoices or the county tax record rather than the summarized figure alone. A property tax line that reflects the seller's current assessed value under Duval County's consolidated system may understate what a new owner will pay once the sale triggers reassessment, and that gap belongs in the underwriting model before the offer is finalized, not discovered afterward.</p>"
+  },
+  {
+   "heading": "The Line-Item Checklist Applied to Every T12",
+   "html": "<p>Each T12 submitted with a candidate property runs through the same review sequence before it is accepted into the underwriting file.</p><ul><li>Monthly income reconciled against the current rent roll</li><li>Property tax expense checked against the county assessed value</li><li>Insurance premium confirmed as current, not a stale prior-year figure</li><li>Repairs and maintenance reviewed for one-time versus recurring items</li><li>Management fee structure confirmed against the actual management agreement</li></ul>"
+  },
+  {
+   "heading": "Normalizing One-Time Items Before Underwriting",
+   "html": "<p>A T12 sometimes includes one-time capital repairs booked as an operating expense, which understates the property's normalized net operating income if left uncorrected, or excludes a recurring expense the seller paid outside the property's books. Normalizing those items with the seller's broker before finalizing the offer, rather than working from the raw T12 total, gives a cleaner basis for comparing this candidate against others on the identification list.</p>"
+  },
+  {
+   "heading": "Where the Reviewed T12 Feeds the Closing File",
+   "html": "<p>Once a property is selected, the reviewed and normalized T12 becomes part of the lender's underwriting package and the qualified intermediary's closing file, so keeping it organized and reconciled from the start avoids reworking it twice. Running the same review discipline on every candidate, regardless of asset type, keeps the exchange's financial due diligence consistent from the first candidate reviewed to the property that closes.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "What is the most common red flag found in a T12 review?",
+   "a": "A gap between the T12's reported income and what the current rent roll shows is the most common flag, since it often means a concession, a rent increase not yet reflected, or a collections issue that has not been disclosed. Reconciling the two documents line by line is the fastest way to catch it."
+  },
+  {
+   "q": "Why does property tax on the T12 need to be checked against the county record?",
+   "a": "The T12 shows the seller's current property tax expense, which can understate what a new owner will pay once the sale triggers reassessment under Duval County's consolidated system. Estimating the post-sale assessed value separately keeps the underwriting from relying on a figure that will not hold after closing."
+  },
+  {
+   "q": "How should one-time capital expenses be treated in a T12 review?",
+   "a": "One-time items like a roof replacement or a major repair should be separated from recurring operating expenses so the normalized net operating income reflects ongoing performance rather than a single unusual year. Leaving them blended into the total can either overstate or understate the property's real operating cost. The same separation applies to a one-time legal settlement or a lease buyout payment that shows up as income in a single month."
+  },
+  {
+   "q": "Does a T12 review differ for a single-tenant net lease property versus multifamily?",
+   "a": "A single-tenant T12 is generally simpler since most expenses pass through to the tenant under the lease, while a multifamily T12 requires closer review of operating expenses the owner directly controls, like utilities and payroll. Both still require the same reconciliation discipline against underlying documentation."
+  },
+  {
+   "q": "Should insurance premiums on a T12 be verified as current?",
+   "a": "Yes, a stale prior-year premium can understate the actual cost going forward, particularly in coastal Florida markets where premiums have moved more than in prior years. Requesting the current policy declaration page alongside the T12 confirms the expense line is accurate before it is used in the offer."
+  },
+  {
+   "q": "What should happen if a seller cannot produce a full trailing twelve-month statement?",
+   "a": "A partial or annualized statement should be treated with more caution than a complete T12, and requesting bank statements or a general ledger export to reconstruct the missing months gives a more reliable basis for underwriting than accepting an annualized estimate at face value. Missing months are often the ones with the most relevant information."
+  },
+  {
+   "q": "How does management fee review differ between an owner-managed and third-party-managed Jacksonville property?",
+   "a": "An owner-managed property's T12 may not reflect a market-rate management fee at all, which can understate the true ongoing cost of operating the asset once a new owner brings in third-party management. Normalizing the T12 to include a market management fee, even if the seller self-managed, gives a more accurate comparison against other candidates."
+  }
+ ],
+ "internalLinks": [],
+ "wordCount": 865
+}

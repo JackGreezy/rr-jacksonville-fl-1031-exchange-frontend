@@ -1,0 +1,70 @@
+{
+ "slug": "reverse-exchange-coordination",
+ "taxonomy": "services",
+ "title": "Reverse Exchange Coordination",
+ "name": "Reverse Exchange Coordination",
+ "metaTitle": "Reverse Exchange Coordination in Jacksonville, FL",
+ "metaDescription": "Reverse exchange coordination for Jacksonville 1031 investors, sequencing the exchange accommodation titleholder before financing outpaces the relinquished sale.",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>A reverse exchange flips the normal procurement sequence: the replacement property closes before the relinquished property sells. That order change adds a structural step, an exchange accommodation titleholder to hold the parked property, and that step has to be scoped and financed before the replacement purchase closes, not arranged after the fact.</p>"
+  },
+  {
+   "heading": "Scoping the Parking Arrangement Before Closing",
+   "html": "<p>In most reverse exchanges, either the replacement property or the relinquished property is transferred to an exchange accommodation titleholder, a separate entity created to hold title temporarily while the other side of the transaction catches up. Deciding which property gets parked, and confirming the titleholder entity is in place with financing arranged, has to happen before the closing that triggers the reverse structure, since it cannot be added retroactively once a closing has occurred.</p><p>For a Jacksonville replacement property moving quickly, such as a net lease pad along the I-95 corridor with a tight closing window, the parking decision often needs to be made faster than a standard forward exchange timeline allows.</p>"
+  },
+  {
+   "heading": "Financing the Parked Property",
+   "html": "<p>Because the exchange accommodation titleholder is a separate legal entity, it generally cannot obtain conventional financing the way the investor could directly, which means many reverse exchanges rely on all-cash purchases or specialized reverse-exchange lending. Confirming financing capacity for the parked structure before committing to a reverse exchange avoids discovering mid-transaction that the deal cannot be funded the way it was planned.</p>"
+  },
+  {
+   "heading": "The Documentation Package a Reverse Exchange Requires",
+   "html": "<p>A reverse exchange carries more documentation than a standard forward exchange, and each item needs to be in place before the first closing occurs.</p><ul><li>Qualified exchange accommodation agreement establishing the titleholder entity</li><li>Written identification of the relinquished property within 45 days of the parked closing</li><li>Financing commitment for the parked property confirmed before closing</li><li>Property management or triple-net lease arrangement covering the parking period</li><li>Timeline confirming disposition of the relinquished property within 180 days</li></ul>"
+  },
+  {
+   "heading": "The 180-Day Clock Runs the Same Way",
+   "html": "<p>Even though the sequence is reversed, the 180-day exchange period still applies from the date the first property closes, so the relinquished property still needs to sell within that window for the exchange to complete. Tracking that deadline from day one of the parking arrangement, rather than assuming the reverse structure grants extra time, keeps the exchange on schedule.</p>"
+  },
+  {
+   "heading": "Unwinding the Parking Structure at Closing",
+   "html": "<p>Once the relinquished property sells, title to the parked replacement property transfers from the exchange accommodation titleholder to the investor, closing out the reverse structure. Confirming that transfer document is prepared and reviewed by the investor's advisor before the relinquished sale closes keeps the final step from becoming a last-minute scramble against the 180-day deadline.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Why would an investor use a reverse exchange instead of a standard forward exchange?",
+   "a": "A reverse exchange lets an investor secure a strong replacement property, such as a net lease pad with a tight closing window, before the relinquished property has sold, which matters when a desirable property might not wait for a standard sale timeline. It adds cost and complexity, so it typically only makes sense when the replacement opportunity is time-sensitive."
+  },
+  {
+   "q": "What is an exchange accommodation titleholder?",
+   "a": "It is a separate legal entity created specifically to hold title to either the relinquished or replacement property temporarily during a reverse exchange, keeping the transaction structured correctly under exchange rules. That entity is distinct from the qualified intermediary, though the same QI provider often offers both services."
+  },
+  {
+   "q": "Does the 45-day identification period still apply in a reverse exchange?",
+   "a": "Yes, when the replacement property is parked first, the investor still has 45 days to identify which relinquished property will complete the exchange, and 180 days total to finish the transaction. The clock starts from the parking closing rather than from a relinquished sale."
+  },
+  {
+   "q": "Can a reverse exchange be financed with a conventional mortgage?",
+   "a": "Financing the parked property is more limited since the titleholder entity, not the investor, holds title during the parking period, which means many reverse exchanges rely on cash purchases or specialized reverse-exchange lenders. This should be confirmed with a lender before committing to the reverse structure."
+  },
+  {
+   "q": "What happens if the relinquished property does not sell within 180 days?",
+   "a": "If the relinquished property fails to sell within the 180-day window, the reverse exchange fails and the parked property purchase is treated as a standard taxable acquisition rather than part of a completed exchange. That risk is why realistic pricing and marketing timelines for the relinquished property should be set before the reverse structure begins."
+  },
+  {
+   "q": "Who manages the parked property while it sits with the exchange accommodation titleholder?",
+   "a": "A property management agreement or a triple-net lease back to the investor typically covers day-to-day operations during the parking period, since the titleholder entity generally has no operating staff of its own. That arrangement should be documented before the parking closing, not improvised once the property is already held by the titleholder."
+  },
+  {
+   "q": "Does a reverse exchange cost more than a standard forward exchange?",
+   "a": "Yes, reverse exchanges typically involve higher qualified intermediary and legal fees given the additional entity formation, financing coordination, and documentation required to hold title through the titleholder structure. Investors should weigh that added cost against the value of securing a time-sensitive replacement property before deciding to use the structure."
+  },
+  {
+   "q": "Can the same qualified intermediary that manages a standard forward exchange also handle a reverse exchange?",
+   "a": "Many QI providers offer both services, but reverse exchange work generally requires additional legal documentation to establish the exchange accommodation titleholder entity, so it should be confirmed directly whether the chosen provider has that capability before committing to the reverse structure. Not every QI is equipped to handle the added entity formation on short notice."
+  }
+ ],
+ "internalLinks": [],
+ "wordCount": 915
+}

@@ -1,0 +1,66 @@
+{
+ "slug": "replacement-property-identification",
+ "taxonomy": "services",
+ "title": "Replacement Property Identification",
+ "name": "Replacement Property Identification",
+ "metaTitle": "Replacement Property Identification in Jacksonville, FL",
+ "metaDescription": "Replacement property identification for Jacksonville 1031 exchanges, assembled as a written submittal that names each candidate before day 45 closes.",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>The 45-day identification is a submittal, not a conversation. It has to be written, signed, and delivered to the qualified intermediary before day 45, naming the candidate properties with enough specificity that there is no ambiguity about which parcels are on the list. Treating it as a formality to finalize later is the single most common way an otherwise sound exchange runs into trouble.</p>"
+  },
+  {
+   "heading": "Drafting the Identification Notice to Specification",
+   "html": "<p>A valid identification notice names each candidate property with an unambiguous legal description or street address, not a general description of the type of asset the investor wants. For a Jacksonville property that means the parcel identification and address as they appear on the county record, not a description like \"a retail property in the Southside submarket,\" which does not meet the specificity the identification rules require.</p><p>Drafting the notice early, once candidate properties are known, rather than waiting until day 44, gives time to confirm each parcel's legal description against the county record before it is submitted.</p>"
+  },
+  {
+   "heading": "Choosing Between the Three-Property and 200 Percent Rules",
+   "html": "<p>An investor identifying replacement property chooses between naming up to three properties regardless of value, or naming more than three as long as their combined fair market value does not exceed 200 percent of the relinquished property's sale price. Jacksonville's spread between smaller single-tenant pads along the I-95 corridor and larger multifamily or industrial assets means the right rule depends heavily on what the investor is targeting, and that choice should be made deliberately rather than defaulted into.</p>"
+  },
+  {
+   "heading": "Building the Candidate List Before Day 45",
+   "html": "<p>Each candidate on the list is documented to the same standard before the notice is finalized, so the identification itself is a clean, defensible submittal.</p><ul><li>Full legal description or parcel identification pulled from the county record</li><li>Street address confirmed against title and survey documentation</li><li>Fair market value estimate documented for 200 percent rule calculations</li><li>Ownership entity or vesting confirmed for each candidate property</li><li>Backup candidates prioritized in case a primary selection falls through</li></ul>"
+  },
+  {
+   "heading": "Revising the List Before the Deadline",
+   "html": "<p>An identification notice can be revised as many times as needed up until day 45, so a candidate that loses financing or fails due diligence can be replaced without losing exchange eligibility, as long as the revision reaches the qualified intermediary before the deadline. Building in a buffer of at least a few days before day 45 for that kind of revision, rather than submitting the final notice on the deadline itself, protects against a late complication.</p>"
+  },
+  {
+   "heading": "Handing the File to Closing",
+   "html": "<p>Once the identification notice is submitted and a candidate is selected for purchase, the file moves into closing coordination: title work confirmed against the identified legal description, the qualified intermediary notified of the specific parcel proceeding to contract, and the purchase agreement checked for assignment language before signature. Running that handoff the same way on every exchange keeps the identification submittal connected to the closing file rather than treated as a separate, disconnected step.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Does the 45-day identification have to be in writing?",
+   "a": "Yes, the identification must be a written, signed document delivered to the qualified intermediary before midnight on day 45, naming each candidate property with an unambiguous legal description. A verbal or informal indication of interest does not satisfy the requirement."
+  },
+  {
+   "q": "Can the identification list be changed after it is submitted?",
+   "a": "Yes, the list can be revised as many times as needed as long as each revision reaches the qualified intermediary before day 45 closes. After that deadline, the properties named on the file at that moment are the only eligible replacement candidates."
+  },
+  {
+   "q": "How specific does a Jacksonville property description need to be on the notice?",
+   "a": "The notice needs the property's legal description or street address as it appears on the county record, not a general description of the property type or submarket. A description too vague to identify a specific parcel does not meet the identification standard."
+  },
+  {
+   "q": "What happens if none of the identified properties can be acquired?",
+   "a": "If every identified property falls through before day 180, the exchange fails and the transaction is treated as a taxable sale, which is why backup candidates on the identification list matter as much as the primary selection. Naming a realistic backup, and not only a first choice, protects the exchange."
+  },
+  {
+   "q": "Can an investor identify more than three properties?",
+   "a": "Yes, under the 200 percent rule an investor can identify any number of properties as long as their combined fair market value does not exceed twice the relinquished property's sale price. Choosing between that rule and the three-property rule depends on how many candidates the investor genuinely wants to keep in play."
+  },
+  {
+   "q": "Does the identification notice need to go anywhere besides the qualified intermediary?",
+   "a": "The notice is only required to reach the qualified intermediary, or in some cases another party involved in the exchange such as the seller of the replacement property, before day 45 closes. Sending it only to a broker or attorney without also delivering it to the QI does not satisfy the requirement."
+  },
+  {
+   "q": "How should backup candidates be prioritized on a Jacksonville identification list?",
+   "a": "Backup candidates should be ranked by how quickly they could realistically close and how confident the seller's willingness to hold the property is, rather than simply listed in the order they were found. A backup that cannot close inside the remaining exchange period offers little practical protection even if it is technically identified."
+  }
+ ],
+ "internalLinks": [],
+ "wordCount": 869
+}

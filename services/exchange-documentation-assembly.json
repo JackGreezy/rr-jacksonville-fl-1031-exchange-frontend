@@ -1,0 +1,58 @@
+{
+ "slug": "exchange-documentation-assembly",
+ "taxonomy": "services",
+ "title": "Exchange Documentation Assembly",
+ "name": "Exchange Documentation Assembly",
+ "metaTitle": "Exchange Documentation Assembly in Jacksonville, FL",
+ "metaDescription": "Assembling the full document package a Jacksonville 1031 exchange needs from relinquished-property closing through final settlement.",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>A 1031 exchange runs on a specific set of documents, and missing or mismatched paperwork is a more common cause of a failed exchange than a missed deadline. We treat the document set as a single package to assemble and cross-check, not a collection of forms each party handles independently, so that the exchange agreement, assignment paperwork, and closing statements all agree with each other before either Jacksonville closing happens.</p>"
+  },
+  {
+   "heading": "The Core Document Set for a Jacksonville Exchange",
+   "html": "<p>Every exchange starts with an exchange agreement between the exchanger and the qualified intermediary, which establishes the intermediary's role holding proceeds and taking assignment of both contracts. That agreement has to be signed before the relinquished property closes, not after, since the intermediary cannot retroactively step into a transaction that already settled with funds going directly to the exchanger.</p><p>Alongside the exchange agreement, we assemble the assignment of the relinquished-property sale contract, the assignment of the replacement-property purchase contract once one is under contract, and notice of assignment delivered to both the buyer and seller as required. Each of these documents references the others by date and parcel description, so a mismatch between the legal description on the assignment and the description on the identification notice can create a real problem at closing.</p>"
+  },
+  {
+   "heading": "Cross-Checking Legal Descriptions Across Documents",
+   "html": "<ul><li>Legal description on the relinquished-property deed and sale contract</li><li>Legal description on the identification notice for each replacement candidate</li><li>Legal description on the assignment of the replacement-property purchase contract</li><li>Vesting language confirming how title will be held on the replacement side</li><li>Final settlement statement description matching the recorded deed</li></ul>"
+  },
+  {
+   "heading": "Where Jacksonville Document Sets Go Wrong",
+   "html": "<p>Older parcels downtown or on the Southbank sometimes carry legal descriptions pulled from decades-old plats that do not match the shorthand address used everywhere else in the file, which creates a discrepancy between the identification notice and the eventual deed if nobody catches it early. We pull the recorded legal description directly from the Duval County property records rather than relying on a broker's listing sheet, since the listing description is not always what ends up on the closing documents.</p><p>A second recurring gap is entity documentation that has not been updated to match how title will actually be held on the replacement side. An exchanger holding the relinquished property under one entity structure and planning to take the replacement property under a different one needs that change reflected consistently across the exchange agreement, the assignment documents, and the eventual deed, not corrected piecemeal as each document gets drafted.</p>"
+  },
+  {
+   "heading": "Coordinating Signatures Across Two Transaction Timelines",
+   "html": "<p>Because the relinquished-property sale and the replacement-property purchase rarely close on the same day, the document package has to account for signatures collected at two different points in the schedule. We track which documents need to be executed before the relinquished sale, which need to be ready before the identification deadline, and which are finalized only once a specific replacement candidate near JAXPORT, the beaches, or the I-95 corridor reaches closing.</p><p>A signature tracking sheet, listing each document, the required signer, and the deadline it is tied to, keeps this from becoming a scramble in the final days before either closing, particularly when an exchanger is traveling or otherwise not readily available on short notice.</p>"
+  },
+  {
+   "heading": "Delivering the Final Package to the Tax Advisor",
+   "html": "<p>Once both closings are complete, we compile the full document set, both settlement statements, the exchange agreement, the assignments, and the identification notice, into one package for the exchanger's tax advisor to use when preparing Form 8824. Handing over a complete, cross-referenced file avoids the advisor having to chase down individual documents from the intermediary, the title company, and the exchanger separately after the fact.</p><p>We deliver that package with a short index describing which document supports which figure on the reconciliation worksheet, rather than a folder of unlabeled PDFs, so the tax advisor can move directly to preparing the return instead of spending billable time sorting through the file first.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "When does the exchange agreement with the qualified intermediary need to be signed?",
+   "a": "Before the relinquished property closes, since the intermediary has to be assigned into the sale contract prior to closing in order to properly hold the proceeds."
+  },
+  {
+   "q": "What happens if a legal description does not match between the identification notice and the final deed?",
+   "a": "A meaningful discrepancy can create questions about whether the identified property and the acquired property are actually the same parcel, which is why we cross-check descriptions against Duval County property records before filing anything."
+  },
+  {
+   "q": "Does the exchanger need to sign documents at both closings personally?",
+   "a": "Typically yes, though power of attorney arrangements are sometimes used for exchangers who cannot attend a Jacksonville closing in person, and we coordinate that documentation in advance if needed."
+  },
+  {
+   "q": "Who keeps the master copy of the full exchange document set?",
+   "a": "We recommend the exchanger retain a complete copy independent of the intermediary's file, since the intermediary's role typically ends once the exchange period closes, and records may still be needed years later if a later sale or audit references the original exchange."
+  },
+  {
+   "q": "Does the document package differ for a DST replacement property?",
+   "a": "Yes, a DST allocation replaces the purchase contract and closing statement with subscription documents and a trust agreement, which get cross-checked against the identification notice the same way a direct property would."
+  }
+ ],
+ "internalLinks": [],
+ "wordCount": 852
+}

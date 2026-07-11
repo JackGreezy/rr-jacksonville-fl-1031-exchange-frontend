@@ -1,0 +1,66 @@
+{
+ "slug": "rent-roll-analysis",
+ "taxonomy": "services",
+ "title": "Rent Roll Analysis",
+ "name": "Rent Roll Analysis",
+ "metaTitle": "Rent Roll Analysis in Jacksonville, FL",
+ "metaDescription": "Rent roll analysis for Jacksonville replacement property, read line by line for lease term, escalations, and tenant concentration before an offer is submitted.",
+ "sections": [
+  {
+   "heading": null,
+   "html": "<p>A rent roll is the closest thing a real estate submittal has to a set of shop drawings: every line item has to reconcile against the lease it claims to summarize before an offer goes in on a Jacksonville replacement property. Reading it quickly, or trusting the seller's summary without checking it against the underlying leases, is where offers get built on numbers that do not hold up at closing.</p>"
+  },
+  {
+   "heading": "Reconciling Each Line Against the Underlying Lease",
+   "html": "<p>Every rent roll line should be checked against its lease for base rent, escalation schedule, and any concessions or free-rent periods that a summary figure can hide. A property showing strong current rent can still carry a free-rent period rolling off next quarter, or an escalation clause capped below market, and either detail changes the actual return the investor is buying into.</p><p>That reconciliation takes longer than reading the summary tab, but it is the difference between underwriting the property that was represented and underwriting the property that actually exists.</p>"
+  },
+  {
+   "heading": "Reading Tenant Concentration Across Jacksonville Property Types",
+   "html": "<p>Concentration risk shows up differently depending on asset type. A multifamily rent roll near Nocatee or Fleming Island spreads risk across dozens of units, while a single-tenant net lease pad along the I-95 corridor concentrates the entire income stream in one lease, and a small retail strip near the beaches sits somewhere between the two. The rent roll analysis has to match the scrutiny to the concentration: more time reviewing the anchor lease on a concentrated property, more time reviewing turnover patterns on a diversified one.</p>"
+  },
+  {
+   "heading": "The Checklist Applied to Every Rent Roll",
+   "html": "<p>The same review sequence runs on every candidate property before it moves forward in the submittal package, regardless of asset type.</p><ul><li>Base rent and escalation schedule matched against each executed lease</li><li>Lease expiration dates flagged inside the coming twenty-four months</li><li>Concessions, free-rent periods, and tenant improvement allowances identified</li><li>Percentage or overage rent clauses confirmed where applicable</li><li>Delinquency history requested for the trailing twelve months</li></ul>"
+  },
+  {
+   "heading": "What a Clean Rent Roll Confirms Before Closing",
+   "html": "<p>A rent roll that reconciles cleanly against its leases, with no undisclosed concessions and no near-term expirations left unaddressed, is what a lender's underwriter and the investor's own advisor are both going to want to see before the replacement purchase closes. Confirming that reconciliation before the offer is submitted, not after the lender's third-party review flags a discrepancy, keeps the closing timeline intact against the 180-day exchange period.</p>"
+  },
+  {
+   "heading": "Where Duval County Assessment History Fits In",
+   "html": "<p>Property tax history under Duval County's consolidated assessment should be pulled alongside the rent roll, since a recent reassessment or an appeal in progress affects the net operating income the rent roll implies. That figure gets requested as part of the same submittal package rather than confirmed separately after the numbers have already been used to build an offer.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "What is the most common discrepancy found between a rent roll and the underlying leases?",
+   "a": "Free-rent periods and tenant improvement concessions are the items most often missing from a summarized rent roll, since they reduce effective rent temporarily without showing up as a separate line. Reviewing the executed lease directly, rather than a seller-prepared summary, is the only way to catch them."
+  },
+  {
+   "q": "How far out should lease expirations be flagged during rent roll review?",
+   "a": "Expirations inside the next twenty-four months generally deserve the closest attention, since they affect both near-term income stability and how a lender underwrites the loan. Expirations further out still matter but carry less immediate weight in the purchase decision."
+  },
+  {
+   "q": "Does rent roll analysis differ between multifamily and single-tenant net lease property?",
+   "a": "Yes, multifamily review focuses on unit-level turnover and occupancy trends across many leases, while single-tenant review focuses almost entirely on the credit and remaining term of one lease. The underlying discipline is the same, but the concentration of risk changes what gets the most scrutiny."
+  },
+  {
+   "q": "Should delinquency history be requested even on a rent roll showing full occupancy?",
+   "a": "Yes, occupancy and payment performance are separate questions, and a fully leased property can still carry chronic late payment on several accounts. Trailing twelve-month delinquency history should be part of every rent roll request regardless of the occupancy figure shown."
+  },
+  {
+   "q": "How does Duval County's reassessment cycle affect rent roll-based underwriting?",
+   "a": "A change in ownership can trigger a new assessed value at the next cycle, which may raise the property tax expense above what the rent roll's trailing expenses assumed. That adjustment should be estimated and built into the pro forma before the offer is finalized, not discovered after closing."
+  },
+  {
+   "q": "How should percentage or overage rent clauses be handled in a rent roll review?",
+   "a": "Percentage rent, common in some retail leases, adds income above the base rent once a tenant's sales cross a stated threshold, and that additional income should be verified against actual sales reports rather than projected forward from a single strong year. Treating projected percentage rent as guaranteed income overstates the property's stabilized return."
+  },
+  {
+   "q": "What role does the rent roll play once a property is under contract, versus before an offer is made?",
+   "a": "Before an offer, the rent roll shapes the initial pricing and underwriting assumptions, while after a property is under contract it becomes the basis for estoppel certificates that tenants sign confirming their lease terms match what was represented. A discrepancy caught at the estoppel stage, after pricing is already locked in, is far more disruptive than one caught during the initial review."
+  }
+ ],
+ "internalLinks": [],
+ "wordCount": 867
+}
