@@ -16,10 +16,10 @@ interface ContactFormProps {
   showTitle?: boolean;
 }
 
-function ContactFormInner({ 
+function ContactFormInner({
   prefilledProjectType: propPrefilledProjectType,
   className = "",
-  showTitle = true 
+  showTitle = true
 }: ContactFormProps) {
   const searchParams = useSearchParams();
   const formRef = useRef<HTMLFormElement>(null);
@@ -146,10 +146,8 @@ function ContactFormInner({
 
       <form
         ref={formRef}
-        onSubmit={handleSubmit}
         className={`rounded-3xl border border-[#E5E7EB] bg-white p-8 shadow-lg ${className}`}
-        id="contact-form"
-      >
+        id="contact-form" action="/api/contact" method="post">
       {showTitle && (
         <h2
           className="text-2xl font-semibold tracking-tight text-[#003366]"
@@ -164,29 +162,19 @@ function ContactFormInner({
           <input
             required
             aria-required="true"
-            aria-label="Full name"
-            name="name"
+            aria-label="Full name" name="name"
             type="text"
             className="mt-1 rounded-2xl border border-[#E5E7EB] bg-white px-4 py-3 text-base text-[#1F2937] focus:border-[#003366] focus:outline-none"
           />
         </label>
-        <label className="flex flex-col text-sm font-semibold text-[#003366]">
-          Company
-          <input
-            aria-label="Company name"
-            name="company"
-            type="text"
-            className="mt-1 rounded-2xl border border-[#E5E7EB] bg-white px-4 py-3 text-base text-[#1F2937] focus:border-[#003366] focus:outline-none"
-          />
-        </label>
+
         <div className="grid gap-4 md:grid-cols-2">
           <label className="flex flex-col text-sm font-semibold text-[#003366]">
             Email *
             <input
               required
               aria-required="true"
-              aria-label="Email"
-              name="email"
+              aria-label="Email" name="email"
               type="email"
               className="mt-1 rounded-2xl border border-[#E5E7EB] bg-white px-4 py-3 text-base text-[#1F2937] focus:border-[#003366] focus:outline-none"
             />
@@ -197,8 +185,7 @@ function ContactFormInner({
               ref={phoneInputRef}
               required
               aria-required="true"
-              aria-label="Phone number"
-              name="phone"
+              aria-label="Phone number" name="phone"
               type="tel"
               inputMode="numeric"
               pattern="[0-9]*"
@@ -209,23 +196,7 @@ function ContactFormInner({
         </div>
         <label className="relative flex flex-col text-sm font-semibold text-[#003366]">
           Project Type *
-          <input
-            ref={projectTypeRef}
-            required
-            aria-required="true"
-            aria-label="Project type"
-            name="projectType"
-            type="text"
-            value={selectedProjectType || projectTypeQuery}
-            onChange={(e) => {
-              setProjectTypeQuery(e.target.value);
-              setSelectedProjectType(e.target.value);
-              setShowSuggestions(true);
-            }}
-            onFocus={() => setShowSuggestions(true)}
-            className="mt-1 rounded-2xl border border-[#E5E7EB] bg-white px-4 py-3 text-base text-[#1F2937] focus:border-[#003366] focus:outline-none"
-            autoComplete="off"
-          />
+
           {showSuggestions && filteredProjectTypes.length > 0 && (
             <div className="absolute left-0 right-0 top-full z-50 mt-1 max-h-48 overflow-y-auto rounded-2xl border border-[#E5E7EB] bg-white shadow-xl">
               <ul className="py-2">
@@ -244,71 +215,26 @@ function ContactFormInner({
             </div>
           )}
         </label>
-        <label className="flex flex-col text-sm font-semibold text-[#003366]">
-          Property Being Sold
-          <input
-            aria-label="Property being sold"
-            name="property"
-            type="text"
-            placeholder="Include property type, location, and estimated value (optional)"
-            className="mt-1 rounded-2xl border border-[#E5E7EB] bg-white px-4 py-3 text-base text-[#1F2937] focus:border-[#003366] focus:outline-none"
-          />
-        </label>
+
         <div className="grid gap-4 md:grid-cols-2">
-          <label className="flex flex-col text-sm font-semibold text-[#003366]">
-            Estimated Close Date
-            <input
-              aria-label="Estimated close date"
-              name="estimatedCloseDate"
-              type="date"
-              className="mt-1 rounded-2xl border border-[#E5E7EB] bg-white px-4 py-3 text-base text-[#1F2937] focus:border-[#003366] focus:outline-none"
-            />
-          </label>
-          <label className="flex flex-col text-sm font-semibold text-[#003366]">
-            City
-            <input
-              aria-label="City"
-              name="city"
-              type="text"
-              placeholder="Primary metro or submarket (optional)"
-              className="mt-1 rounded-2xl border border-[#E5E7EB] bg-white px-4 py-3 text-base text-[#1F2937] focus:border-[#003366] focus:outline-none"
-            />
-          </label>
+
+
         </div>
         <label className="flex flex-col text-sm font-semibold text-[#003366]">
-          Timeline
-          <select
-            aria-label="Timeline"
-            name="timeline"
-            className="mt-1 rounded-2xl border border-[#E5E7EB] bg-white px-4 py-3 text-base text-[#1F2937] focus:border-[#003366] focus:outline-none"
-          >
-            <option value="">Select timeline</option>
-            <option value="immediate">Immediate (within 30 days)</option>
-            <option value="45-days">Within 45 days</option>
-            <option value="90-days">Within 90 days</option>
-            <option value="180-days">Within 180 days</option>
-            <option value="planning">Planning phase</option>
-          </select>
+          Have You Done a 1031 Exchange Before?
+          <select aria-label="Timeline"
+            className="mt-1 rounded-2xl border border-[#E5E7EB] bg-white px-4 py-3 text-base text-[#1F2937] focus:border-[#003366] focus:outline-none" name="hasCompleted1031" required><option value="">Select yes or no</option><option value="Yes">Yes</option><option value="No">No</option></select>
         </label>
         <label className="flex flex-col text-sm font-semibold text-[#003366]">
-          Details
-          <textarea
-            aria-label="Project details"
-            name="details"
-            rows={6}
-            className="mt-1 rounded-2xl border border-[#E5E7EB] bg-white px-4 py-3 text-base text-[#1F2937] focus:border-[#003366] focus:outline-none"
-          />
+          Exchange Notes
+          <textarea aria-label="Project details"
+            className="mt-1 rounded-2xl border border-[#E5E7EB] bg-white px-4 py-3 text-base text-[#1F2937] focus:border-[#003366] focus:outline-none" name="notes" rows={4} placeholder="Share any exchange questions or context"></textarea>
         </label>
-        <div
-          className="cf-turnstile"
-          data-sitekey={process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY || ""}
-          data-callback="turnstileCallback"
-        />
-        <input type="hidden" name="cf-turnstile-response" value={turnstileToken} />
+
+
         <button
           type="submit"
           className="w-full rounded-full bg-[#003366] px-6 py-3 text-sm font-semibold uppercase tracking-[0.25em] text-white transition hover:bg-[#01264f] disabled:opacity-50 disabled:cursor-not-allowed"
-          disabled={!turnstileToken || isSubmitting}
         >
           {isSubmitting ? 'Submitting...' : 'Submit Request'}
         </button>
