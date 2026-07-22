@@ -158,7 +158,7 @@ function ContactFormInner({
       )}
       <div className={`${showTitle ? "mt-6" : ""} space-y-4`}>
         <label className="flex flex-col text-sm font-semibold text-[#003366]">
-          Name *
+          Name
           <input
             required
             aria-required="true"
@@ -170,7 +170,7 @@ function ContactFormInner({
 
         <div className="grid gap-4 md:grid-cols-2">
           <label className="flex flex-col text-sm font-semibold text-[#003366]">
-            Email *
+            Email
             <input
               required
               aria-required="true"
@@ -180,7 +180,7 @@ function ContactFormInner({
             />
           </label>
           <label className="flex flex-col text-sm font-semibold text-[#003366]">
-            Phone *
+            Phone Number
             <input
               ref={phoneInputRef}
               required
@@ -221,12 +221,12 @@ function ContactFormInner({
 
         </div>
         <label className="flex flex-col text-sm font-semibold text-[#003366]">
-          Have You Done a 1031 Exchange Before?
+          Have you completed a 1031 exchange before?
           <select aria-label="Timeline"
             className="mt-1 rounded-2xl border border-[#E5E7EB] bg-white px-4 py-3 text-base text-[#1F2937] focus:border-[#003366] focus:outline-none" name="hasCompleted1031" required><option value="">Select yes or no</option><option value="Yes">Yes</option><option value="No">No</option></select>
         </label>
         <label className="flex flex-col text-sm font-semibold text-[#003366]">
-          Exchange Notes
+          Notes
           <textarea aria-label="Project details"
             className="mt-1 rounded-2xl border border-[#E5E7EB] bg-white px-4 py-3 text-base text-[#1F2937] focus:border-[#003366] focus:outline-none" name="notes" rows={4} placeholder="Share any exchange questions or context"></textarea>
         </label>
