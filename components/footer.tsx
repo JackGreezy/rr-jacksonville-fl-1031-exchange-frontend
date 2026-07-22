@@ -20,7 +20,6 @@ export default function Footer() {
             <div className="space-y-3 text-sm">
               <div>
                 <p className="font-medium text-white mb-1">Address:</p>
-                <p className="text-white/80">200 W Forsyth St, Jacksonville, FL 32202</p>
               </div>
               <div>
                 <p className="font-medium text-white mb-1">Phone:</p>
