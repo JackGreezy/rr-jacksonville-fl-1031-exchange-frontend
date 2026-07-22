@@ -170,16 +170,6 @@ function ContactFormInner({
 
         <div className="grid gap-4 md:grid-cols-2">
           <label className="flex flex-col text-sm font-semibold text-[#003366]">
-            Email
-            <input
-              required
-              aria-required="true"
-              aria-label="Email" name="email"
-              type="email"
-              className="mt-1 rounded-2xl border border-[#E5E7EB] bg-white px-4 py-3 text-base text-[#1F2937] focus:border-[#003366] focus:outline-none"
-            />
-          </label>
-          <label className="flex flex-col text-sm font-semibold text-[#003366]">
             Phone Number
             <input
               ref={phoneInputRef}
@@ -190,6 +180,16 @@ function ContactFormInner({
               inputMode="numeric"
               pattern="[0-9]*"
               onInput={handlePhoneInput}
+              className="mt-1 rounded-2xl border border-[#E5E7EB] bg-white px-4 py-3 text-base text-[#1F2937] focus:border-[#003366] focus:outline-none"
+            />
+          </label>
+          <label className="flex flex-col text-sm font-semibold text-[#003366]">
+            Email
+            <input
+              required
+              aria-required="true"
+              aria-label="Email" name="email"
+              type="email"
               className="mt-1 rounded-2xl border border-[#E5E7EB] bg-white px-4 py-3 text-base text-[#1F2937] focus:border-[#003366] focus:outline-none"
             />
           </label>
