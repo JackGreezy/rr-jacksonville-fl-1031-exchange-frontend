@@ -68,6 +68,10 @@ export default async function LocationPage({ params }: Props) {
 
   const batchData = getLocationBatchData(slug);
   const locationServices = servicesData.slice(0, 6);
+  const faqList =
+    batchData?.richFaqs && batchData.richFaqs.length > 0
+      ? batchData.richFaqs
+      : batchData?.faqs;
   
   // Get hero image - prefer from location data, fallback to standard pattern
   const heroImage = location.heroImage || `/locations/${slug}-1031-exchange.jpg`;
@@ -113,6 +117,24 @@ export default async function LocationPage({ params }: Props) {
             </p>
           )}
 
+          {batchData?.richSections && batchData.richSections.length > 0 && (
+            <div className="mt-12 space-y-10">
+              {batchData.richSections.map((section, index) => (
+                <div key={index}>
+                  {section.heading && (
+                    <h2 className="font-display text-2xl md:text-3xl font-light tracking-tight text-[#1a1a1a] mb-4">
+                      {section.heading}
+                    </h2>
+                  )}
+                  <div
+                    className="prose prose-lg max-w-none text-[#1a1a1a]/70"
+                    dangerouslySetInnerHTML={{ __html: section.html }}
+                  />
+                </div>
+              ))}
+            </div>
+          )}
+
           {batchData?.popularPaths && batchData.popularPaths.length > 0 && (
             <div className="mt-12">
               <h2 className="font-display text-3xl md:text-4xl font-light tracking-tight text-[#1a1a1a] mb-6">
@@ -144,13 +166,13 @@ export default async function LocationPage({ params }: Props) {
             </div>
           )}
 
-          {batchData?.faqs && batchData.faqs.length > 0 && (
+          {faqList && faqList.length > 0 && (
             <div className="mt-12">
               <h2 className="font-display text-3xl md:text-4xl font-light tracking-tight text-[#1a1a1a] mb-6">
                 Frequently Asked Questions
               </h2>
               <div className="space-y-4">
-                {batchData.faqs.map((faq, index) => (
+                {faqList.map((faq, index) => (
                   <details key={index} className="group bg-white/50 p-6">
                     <summary className="flex cursor-pointer list-none items-center justify-between text-lg font-display font-medium text-[#1a1a1a] hover:text-[#c9a962] transition-colors">
                       {faq.question}
@@ -165,7 +187,7 @@ export default async function LocationPage({ params }: Props) {
             </div>
           )}
 
-          {!batchData?.faqs && (
+          {(!faqList || faqList.length === 0) && (
             <div className="mt-12">
               <h2 className="font-display text-3xl md:text-4xl font-light tracking-tight text-[#1a1a1a] mb-6">
                 Frequently Asked Questions

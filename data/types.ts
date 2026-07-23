@@ -56,6 +56,16 @@ export interface LayoutAssignments {
   locations: Record<string, string>;
 }
 
+export interface LocationRichSection {
+  heading: string | null;
+  html: string;
+}
+
+export interface LocationRichFaq {
+  question: string;
+  answer: string;
+}
+
 
 
 

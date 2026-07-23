@@ -1,38 +1,21 @@
 "use client";
 
 import { useEffect, useRef, useState, Suspense } from "react";
-import { useSearchParams } from "next/navigation";
-import { servicesData } from "@/data/services";
-
-// Get project types from services data, sorted alphabetically, plus "Other"
-const projectTypes = [
-  ...servicesData.map((s) => s.name).sort((a, b) => a.localeCompare(b)),
-  "Other",
-];
 
 interface ContactFormProps {
-  prefilledProjectType?: string;
   className?: string;
   showTitle?: boolean;
 }
 
 function ContactFormInner({
-  prefilledProjectType: propPrefilledProjectType,
   className = "",
   showTitle = true
 }: ContactFormProps) {
-  const searchParams = useSearchParams();
   const formRef = useRef<HTMLFormElement>(null);
-  const projectTypeRef = useRef<HTMLInputElement>(null);
   const phoneInputRef = useRef<HTMLInputElement>(null);
-  const [projectTypeQuery, setProjectTypeQuery] = useState("");
-  const [selectedProjectType, setSelectedProjectType] = useState("");
-  const [showSuggestions, setShowSuggestions] = useState(false);
   const [turnstileToken, setTurnstileToken] = useState<string>("");
   const [showSuccessModal, setShowSuccessModal] = useState(false);
   const [isSubmitting, setIsSubmitting] = useState(false);
-
-  const prefilledProjectType = propPrefilledProjectType || searchParams?.get("projectType") || "";
 
   // Phone validation - only allow numbers
   const handlePhoneInput = (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -60,29 +43,6 @@ function ContactFormInner({
     };
   }, []);
 
-  useEffect(() => {
-    if (prefilledProjectType) {
-      setSelectedProjectType(prefilledProjectType);
-      if (formRef.current) {
-        setTimeout(() => {
-          formRef.current?.scrollIntoView({ behavior: "smooth", block: "start" });
-        }, 100);
-      }
-    }
-  }, [prefilledProjectType]);
-
-  const filteredProjectTypes = projectTypeQuery
-    ? projectTypes.filter((type) =>
-        type.toLowerCase().includes(projectTypeQuery.toLowerCase())
-      )
-    : [];
-
-  const handleProjectTypeChange = (value: string) => {
-    setSelectedProjectType(value);
-    setProjectTypeQuery(value);
-    setShowSuggestions(false);
-  };
-
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setIsSubmitting(true);
@@ -101,8 +61,6 @@ function ContactFormInner({
         if (formRef.current) {
           formRef.current.reset();
         }
-        setSelectedProjectType("");
-        setProjectTypeQuery("");
         setTurnstileToken("");
         // Reset turnstile
         if ((window as any).turnstile) {
@@ -146,8 +104,9 @@ function ContactFormInner({
 
       <form
         ref={formRef}
+        onSubmit={handleSubmit}
         className={`rounded-3xl border border-[#E5E7EB] bg-white p-8 shadow-lg ${className}`}
-        id="contact-form" action="/api/contact" method="post">
+        id="contact-form">
       {showTitle && (
         <h2
           className="text-2xl font-semibold tracking-tight text-[#003366]"
@@ -163,6 +122,7 @@ function ContactFormInner({
             required
             aria-required="true"
             aria-label="Full name" name="name"
+            autoComplete="name"
             type="text"
             className="mt-1 rounded-2xl border border-[#E5E7EB] bg-white px-4 py-3 text-base text-[#1F2937] focus:border-[#003366] focus:outline-none"
           />
@@ -176,6 +136,7 @@ function ContactFormInner({
               required
               aria-required="true"
               aria-label="Phone number" name="phone"
+              autoComplete="tel"
               type="tel"
               inputMode="numeric"
               pattern="[0-9]*"
@@ -189,51 +150,33 @@ function ContactFormInner({
               required
               aria-required="true"
               aria-label="Email" name="email"
+              autoComplete="email"
               type="email"
               className="mt-1 rounded-2xl border border-[#E5E7EB] bg-white px-4 py-3 text-base text-[#1F2937] focus:border-[#003366] focus:outline-none"
             />
           </label>
         </div>
-        <label className="relative flex flex-col text-sm font-semibold text-[#003366]">
-          Project Type *
-
-          {showSuggestions && filteredProjectTypes.length > 0 && (
-            <div className="absolute left-0 right-0 top-full z-50 mt-1 max-h-48 overflow-y-auto rounded-2xl border border-[#E5E7EB] bg-white shadow-xl">
-              <ul className="py-2">
-                {filteredProjectTypes.map((type) => (
-                  <li key={type}>
-                    <button
-                      type="button"
-                      onClick={() => handleProjectTypeChange(type)}
-                      className="w-full px-4 py-2 text-left text-sm text-[#1F2937] transition hover:bg-[#F9FAFB] hover:text-[#003366] focus-visible:bg-[#F9FAFB] focus-visible:text-[#003366] focus-visible:outline-none"
-                    >
-                      {type}
-                    </button>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          )}
-        </label>
-
-        <div className="grid gap-4 md:grid-cols-2">
-
-
-        </div>
-        <label className="flex flex-col text-sm font-semibold text-[#003366]">
+        <label className="flex items-center gap-3 text-sm font-semibold text-[#003366]">
+          <input type="hidden" name="hasCompleted1031" value="No" />
+          <input
+            type="checkbox"
+            name="hasCompleted1031"
+            value="Yes"
+            aria-label="Have you completed a 1031 exchange before?"
+            className="h-4 w-4 rounded border border-[#E5E7EB]"
+          />
           Have you completed a 1031 exchange before?
-          <select aria-label="Timeline"
-            className="mt-1 rounded-2xl border border-[#E5E7EB] bg-white px-4 py-3 text-base text-[#1F2937] focus:border-[#003366] focus:outline-none" name="hasCompleted1031" required><option value="">Select yes or no</option><option value="Yes">Yes</option><option value="No">No</option></select>
         </label>
         <label className="flex flex-col text-sm font-semibold text-[#003366]">
           Notes
-          <textarea aria-label="Project details"
-            className="mt-1 rounded-2xl border border-[#E5E7EB] bg-white px-4 py-3 text-base text-[#1F2937] focus:border-[#003366] focus:outline-none" name="notes" rows={4} placeholder="Share any exchange questions or context"></textarea>
+          <textarea aria-label="Notes"
+            className="mt-1 rounded-2xl border border-[#E5E7EB] bg-white px-4 py-3 text-base text-[#1F2937] focus:border-[#003366] focus:outline-none" name="notes" rows={5} placeholder="Share any exchange questions or context"></textarea>
         </label>
 
 
         <button
           type="submit"
+          disabled={isSubmitting}
           className="w-full rounded-full bg-[#003366] px-6 py-3 text-sm font-semibold uppercase tracking-[0.25em] text-white transition hover:bg-[#01264f] disabled:opacity-50 disabled:cursor-not-allowed"
         >
           {isSubmitting ? 'Submitting...' : 'Submit Request'}
@@ -251,4 +194,3 @@ export default function ContactForm(props: ContactFormProps) {
     </Suspense>
   );
 }
-
