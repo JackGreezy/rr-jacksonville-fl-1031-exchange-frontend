@@ -1,3 +1,4 @@
+import ExchangeIntentSection from "../components/ExchangeIntentSection";
 import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
@@ -97,12 +98,12 @@ const faqItems = [
       "A 1031 exchange defers federal and Florida income tax on qualifying real property, but documentary stamp taxes, transfer fees, and local surtaxes are still due at closing per Florida law.",
   },
   {
-    question: "Can I complete a reverse exchange?",
+    question: "Can you complete a reverse exchange?",
     answer:
       "Yes. A reverse or improvement exchange uses an Exchange Accommodation Titleholder (EAT) to hold the replacement property until your relinquished asset sells, provided all exchange funds are controlled by a qualified intermediary.",
   },
   {
-    question: "How do I report with Form 8824?",
+    question: "How do you report with Form 8824?",
     answer:
       "Form 8824 summarizes the relinquished and replacement properties, dates, boot received, and gain deferred. Your CPA files it with your federal return and keeps backup schedules from your intermediary.",
   },
@@ -383,7 +384,7 @@ export default function HomePage() {
             </div>
           </div>
         </section>
-        </main>
+        <ExchangeIntentSection /></main>
 
       <ConnectButton />
 
