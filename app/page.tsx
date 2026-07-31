@@ -1,4 +1,3 @@
-import ExchangeIntentSection from "../components/ExchangeIntentSection";
 import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
@@ -384,7 +383,7 @@ export default function HomePage() {
             </div>
           </div>
         </section>
-        <ExchangeIntentSection /></main>
+        </main>
 
       <ConnectButton />
 
