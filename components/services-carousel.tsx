@@ -40,8 +40,11 @@ export default function ServicesCarousel() {
     };
   }, []);
 
-  // Double the services array for infinite scroll
-  const doubledServices = [...servicesData, ...servicesData];
+  const homepageServices = servicesData.filter(
+    (service) => !/(?:three-property|200-percent|95-percent)/.test(service.slug),
+  );
+  // Double the visitor-focused services array for infinite scroll
+  const doubledServices = [...homepageServices, ...homepageServices];
 
   return (
     <section className="bg-[#1a1a1a] text-white py-16 md:py-20 overflow-hidden">
