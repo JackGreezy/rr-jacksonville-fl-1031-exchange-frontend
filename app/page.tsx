@@ -215,10 +215,10 @@ export default function HomePage() {
             </p>
 
             <Link
-              href="#contact"
+              href="/contact"
               className="btn-luxury inline-flex"
             >
-              <span>Start Your Exchange</span>
+              <span>Talk Through the Jacksonville Sale</span>
               <ArrowIcon />
             </Link>
           </div>
@@ -251,18 +251,16 @@ export default function HomePage() {
             <div className="lg:w-1/2 flex items-center h-1/2 lg:h-full">
               <div className="px-8 py-8 md:px-12 lg:px-16 xl:px-20 w-full">
                 <h2 className="font-display text-4xl md:text-5xl lg:text-6xl font-light leading-tight tracking-tight mb-6">
-                  The 1031 Exchange <span className="italic">Advantage</span>
+                  The 1031 Exchange <span className="italic">Without Day-to-Day Management</span>
                 </h2>
 
-                <p className="text-sm md:text-base lg:text-lg leading-relaxed text-[#1a1a1a] mb-8">
-                  With decades of combined experience facilitating tax-deferred exchanges, Jacksonville 1031 has developed an unmatched reputation as Northeast Florida&apos;s premier exchange specialists. We are the trusted advisors for investors seeking to maximize their real estate portfolios. Due to our expertise in the Jacksonville market and our integrity, loyalty, and professionalism, we are sought out by savvy investors, developers, and financial advisors. Jacksonville 1031 is frequently featured as a tax-deferred exchange expert and appears as a keynote speaker at real estate conferences around the globe. Contact Jacksonville 1031 to sell and find houses, gated estates, condos, mansions and luxury homes for sale in Jacksonville, St. Augustine, Ponte Vedra, Amelia Island and more.
-                </p>
+                <p className="text-sm md:text-base lg:text-lg leading-relaxed text-[#1a1a1a] mb-8">A Jacksonville owner may be selling rentals, multifamily property, retail, or an inherited asset because insurance, maintenance, tenant work, or concentrated equity no longer fits. We build the replacement solution around proceeds, debt, income, control, geography, and the amount of property responsibility the owner wants next. DST interests can provide access to professionally managed, institutional-quality real estate without personally handling tenants, repairs, or storm preparation. Jacksonville investors may see minimums around $100,000 on some offerings; availability, projected income, insurance exposure, fees, leverage, risk, liquidity, eligibility, and suitability vary.</p>
 
                 <Link
-                  href="/about"
+                  href="/contact?request=guide"
                   className="inline-flex items-center justify-center bg-[#1a1a1a] text-white px-8 py-4 text-xs font-semibold tracking-[0.2em] uppercase hover:bg-[#2a2a2a] transition-all"
                 >
-                  <span>Learn About Us</span>
+                  <span>Get Free Jacksonville 1031 Information</span>
                   <ArrowIcon className="ml-3" />
                 </Link>
               </div>
@@ -338,14 +336,14 @@ export default function HomePage() {
 
           <div className="relative z-10 text-center px-6">
             <h2 className="font-display text-4xl md:text-5xl lg:text-7xl font-light text-white tracking-tight mb-8 italic">
-              Connect With Jacksonville 1031
+              Jacksonville 1031 Exchange Solutions
             </h2>
 
               <Link
-              href="#contact"
+              href="/contact?request=properties"
               className="btn-luxury inline-flex"
               >
-              <span>Contact Us</span>
+              <span>Request the Jacksonville Property List</span>
               <ArrowIcon />
               </Link>
           </div>
