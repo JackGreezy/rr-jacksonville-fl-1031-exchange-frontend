@@ -18,16 +18,16 @@ const EMAIL = "exchange@1031exchangeofjacksonville.com";
 const COMPANY_NAME = "1031 Exchange of Jacksonville";
 
 export const metadata: Metadata = {
-  title: "Jacksonville 1031 Exchange | Florida Tax-Deferred Property Specialists",
+  title: "1031 Exchange Jacksonville | Property Sale Solutions",
   description:
-    "Premier 1031 exchange services in Jacksonville, FL. Defer capital gains taxes on investment property with our expert guidance. Serving North Florida investors since 2010.",
+    "Prepare a Jacksonville 1031 exchange from planned sale through replacement closing. Request free information and current property options.",
   alternates: {
     canonical: SITE_URL,
   },
   openGraph: {
-    title: "Jacksonville 1031 Exchange | Florida Tax-Deferred Property Specialists",
+    title: "1031 Exchange Jacksonville | Property Sale Solutions",
     description:
-      "Premier 1031 exchange services in Jacksonville. Defer capital gains taxes with our expert guidance and local market knowledge.",
+      "Prepare a Jacksonville 1031 exchange from planned sale through replacement closing. Request free information and current property options.",
     url: SITE_URL,
     siteName: COMPANY_NAME,
     images: ["/og-image.png"],
@@ -35,9 +35,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Jacksonville 1031 Exchange | Tax-Deferred Property Experts",
+    title: "1031 Exchange Jacksonville | Property Sale Solutions",
     description:
-      "Defer capital gains taxes with an IRS-compliant 1031 exchange. Serving Jacksonville, St. Augustine, and investors across Florida.",
+      "Prepare a Jacksonville 1031 exchange from planned sale through replacement closing. Request free information and current property options.",
     images: ["/og-image.png"],
   },
 };

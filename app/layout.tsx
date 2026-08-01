@@ -18,9 +18,9 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "Jacksonville 1031 Exchange | Florida Tax-Deferred Property Specialists",
+  title: "1031 Exchange Jacksonville | Property Sale Solutions",
   description:
-    "Premier 1031 exchange services in Jacksonville, FL. Defer capital gains taxes on investment property with our expert guidance. Serving North Florida investors.",
+    "Prepare a Jacksonville 1031 exchange from planned sale through replacement closing. Request free information and current property options.",
   metadataBase: new URL("https://www.1031exchangeofjacksonville.com"),
   icons: {
     icon: [
@@ -37,6 +37,12 @@ export const metadata: Metadata = {
     ],
   },
   manifest: "/favicon/site.webmanifest",
+
+  alternates: { canonical: "/" },
+
+  twitter: { card: "summary_large_image", title: "1031 Exchange Jacksonville | Property Sale Solutions", description: "Prepare a Jacksonville 1031 exchange from planned sale through replacement closing. Request free information and current property options." },
+
+  openGraph: { title: "1031 Exchange Jacksonville | Property Sale Solutions", description: "Prepare a Jacksonville 1031 exchange from planned sale through replacement closing. Request free information and current property options." },
 };
 
 export default function RootLayout({
