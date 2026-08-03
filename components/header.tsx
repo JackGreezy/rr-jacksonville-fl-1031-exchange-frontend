@@ -2,7 +2,6 @@
 
 import { useState, useEffect, useRef } from "react";
 import Link from "next/link";
-import { usePathname } from "next/navigation";
 import { servicesData } from "@/data/services";
 
 const PHONE = {
@@ -68,7 +67,6 @@ function CloseIcon() {
 }
 
 export default function Header() {
-  const pathname = usePathname();
   const [propertiesOpen, setPropertiesOpen] = useState(false);
   const [servicesOpen, setServicesOpen] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -99,11 +97,6 @@ export default function Header() {
     document.addEventListener("keydown", handleEscape);
     return () => document.removeEventListener("keydown", handleEscape);
   }, []);
-
-  // Close mobile menu on route change
-  useEffect(() => {
-    setMobileMenuOpen(false);
-  }, [pathname]);
 
   const handlePropertiesMouseEnter = () => {
     if (propertiesTimeoutRef.current) {
@@ -257,8 +250,8 @@ export default function Header() {
               Contact
             </Link>
 
-            <a href={`tel:${PHONE.dial}`} className="nav-link">
-              {PHONE.formatted}
+            <a href={`tel:${PHONE.dial}`} className="inline-flex shrink-0 items-center whitespace-nowrap border border-[#c9a962]/70 px-4 py-2 text-[11px] font-semibold uppercase tracking-[0.12em] text-white transition hover:bg-[#c9a962] hover:text-[#1a1a1a]">
+              Call {PHONE.formatted}
             </a>
 
             <button
@@ -370,6 +363,13 @@ export default function Header() {
                 >
                   Contact
                 </Link>
+                <a
+                  href={`tel:${PHONE.dial}`}
+                  className="mt-8 block bg-[#c9a962] px-6 py-4 text-center text-sm font-semibold uppercase tracking-[0.12em] text-[#1a1a1a] transition hover:bg-white"
+                  onClick={() => setMobileMenuOpen(false)}
+                >
+                  Free Consultation: {PHONE.formatted}
+                </a>
               </nav>
             </div>
           </div>

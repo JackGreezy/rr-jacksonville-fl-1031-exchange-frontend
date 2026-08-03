@@ -19,9 +19,9 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "1031 Exchange Jacksonville | Property Sale Solutions",
+  title: "1031 Exchange Jacksonville | Free Consultation & Help",
   description:
-    "Prepare a Jacksonville 1031 exchange from planned sale through replacement closing. Request free information and current property options.",
+    "Get free 1031 exchange guidance in Jacksonville. Plan a sale, find direct or DST replacement properties, and get help through closing.",
   metadataBase: new URL("https://www.1031exchangeofjacksonville.com"),
   icons: {
     icon: [
@@ -41,9 +41,9 @@ export const metadata: Metadata = {
 
   alternates: { canonical: "/" },
 
-  twitter: { card: "summary_large_image", title: "1031 Exchange Jacksonville | Property Sale Solutions", description: "Prepare a Jacksonville 1031 exchange from planned sale through replacement closing. Request free information and current property options." },
+  twitter: { card: "summary_large_image", title: "1031 Exchange Jacksonville | Free Consultation & Help", description: "Get free 1031 exchange guidance in Jacksonville from the planned sale through replacement closing." },
 
-  openGraph: { title: "1031 Exchange Jacksonville | Property Sale Solutions", description: "Prepare a Jacksonville 1031 exchange from planned sale through replacement closing. Request free information and current property options." },
+  openGraph: { title: "1031 Exchange Jacksonville | Free Consultation & Help", description: "Get free 1031 exchange guidance in Jacksonville from the planned sale through replacement closing." },
 };
 
 export default function RootLayout({

@@ -99,10 +99,10 @@ export default function ConnectButton() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="fixed bottom-6 left-6 z-50">
+    <div className="fixed bottom-6 right-6 z-50 hidden md:block">
       {/* Expanded Menu */}
       {isOpen && (
-        <div className="absolute bottom-16 left-0 bg-white rounded-xl shadow-2xl overflow-hidden mb-2 min-w-[220px] animate-in fade-in slide-in-from-bottom-2 duration-200">
+        <div className="absolute bottom-16 right-0 bg-white rounded-xl shadow-2xl overflow-hidden mb-2 min-w-[220px] animate-in fade-in slide-in-from-bottom-2 duration-200">
           <a
             href={`tel:${PHONE.dial}`}
             className="flex items-center gap-3 px-5 py-4 text-[#1a1a1a] hover:bg-[#f5f1eb] transition-colors border-b border-gray-100"
@@ -134,7 +134,7 @@ export default function ConnectButton() {
         aria-label={isOpen ? "Close contact menu" : "Open contact menu"}
         aria-expanded={isOpen}
       >
-        <span>Let&apos;s Connect</span>
+        <span>Free Consultation</span>
         {isOpen ? <ChevronDown /> : <ChevronUp />}
       </button>
     </div>
