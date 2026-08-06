@@ -59,6 +59,7 @@ export default function RootLayout({
         <Footer />
         <StickyCall phone="(904) 664-9656" />
         <Analytics />
+              <script src="/turnstile-contact.js" defer></script>
       </body>
     </html>
   );
